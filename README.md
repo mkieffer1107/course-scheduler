@@ -30,9 +30,9 @@ conda env remove --name scheduler
 
 ---
 
-## Data Sources
+## References and Data Sources
 
-The following resources were referenced in this project:
+The following resources were referenced or reappropriated in this project:
 
 | Resource | Description | Link |
 |----------|-------------|------|
