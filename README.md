@@ -9,7 +9,8 @@ When scheduling classes, it is extremely annoying to transition between the degr
 the elective course list, etc. The **Course Scheduler** aims to integrate all of these features into a single chatbot as an example for a service that UF could offer to all students. 
 This would help aid in UF's goal of buliding an AI university! 🚀
 
-Using high-tech tools like RAG 🤖 and Gen AI 🧠, we've created a robust demo within 10 hours that showcases what's possible, even without the extensive resources of a leading AI university. Enjoy and contribute! ❤️
+Using high-tech tools like RAG 🤖 and Gen AI 🧠, we've created a quick demo that showcases what's possible, even without the extensive resources of a leading AI university. For this reason
+we've cut out some functionality / courses. Enjoy! ❤️
 
 ---
 
