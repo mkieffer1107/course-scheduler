@@ -12,6 +12,7 @@ AI university!
 Keep in mind that this is a demo built in roughly 10 hours by students
 without the vast resources and up-to-date schedules of America's first
 AI university! Enjoy <3
+
 ---
 
 ## Working with Conda
