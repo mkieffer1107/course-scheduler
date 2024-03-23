@@ -9,7 +9,7 @@ features into a single chatbot as an example for a service that UF could
 offer to all students. This would help aid in UF's goal of buliding an
 AI university!
 
-We employ high-tech tools like RAG 🤖 and Gen AI 🧠 to accomplish this task.
+We employ high-tech tools like RAG 🤖 and Gen AI 🧠 to accomplish this task 🦾.
 
 Keep in mind that this is a demo built in roughly 10 hours by students
 without the vast resources and up-to-date schedules of America's first
