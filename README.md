@@ -9,9 +9,12 @@ features into a single chatbot as an example for a service that UF could
 offer to all students. This would help aid in UF's goal of buliding an
 AI university!
 
+We employ high-tech tools like RAG 🤖 and Gen AI 🧠 to accomplish this task.
+
 Keep in mind that this is a demo built in roughly 10 hours by students
 without the vast resources and up-to-date schedules of America's first
 AI university! Enjoy <3
+
 
 ---
 
@@ -41,7 +44,7 @@ The following resources were referenced or reappropriated in this project:
 | Resource | Description | Link |
 |----------|-------------|------|
 | Course Catalog by Major | A complete listing of courses available by major at UF. | [View Catalog](https://catalog.ufl.edu/UGRD/courses/) |
-| Course Catalog with Search (Not Used) | An alternative course catalog offering search functionality. | [Search Courses](https://catalog.ufl.edu/course-search/) |
+| Course Catalog with Search (Not Used) | An alternative course catalog offering archaic search functionality. | [Search Courses](https://catalog.ufl.edu/course-search/) |
 | 2023-2024 Undergraduate Catalog | The official UF undergraduate catalog for the academic years 2023-2024. | [View PDF](https://catalog.ufl.edu/pdf/2023-2024%20Undergraduate%20Catalog%20UF.pdf) |
 | Major and Minor Requirements | Detailed requirements for majors and minors offered at UF. | [View Requirements](https://catalog.ufl.edu/UGRD/programs/) |
 
