@@ -1,0 +1,59 @@
+{
+    "Major": "Physics",
+    "Critical Tracking": [
+      "CHM2045",
+      "CHM2045L",
+      "CHM2046",
+      "MAC2311",
+      "MAC2312",
+      "MAC2313",
+      "PHY2048 OR PHY2060",
+      "PHY2049 OR PHY2061",
+      "MAP2302"
+    ],
+    "College Requirements": {
+      "CLAS Science Laboratory Requirement": "XXXX",
+      "CLAS Foreign Language Requirement": "XXXX",
+      "Elective Outside Major 3000 Level or Above": "XXXX"
+    },
+    "Core Requirements": [
+      "PHY2048 OR PHY2060",
+      "PHY2049 OR PHY2061",
+      "PHY2048L",
+      "PHY2049L",
+      "PHY3101",
+      "PHY3221",
+      "PHY4222",
+      "PHY3323 AND PHY4324",
+      "PHY3513",
+      "PHY4523",
+      "PHY4604",
+      "PHY4802L AND PHY4803L"
+    ],
+    "Math Electives (6 credits)": "XXXX",
+    "Physics Electives (3 credits)": "XXXX",
+    "UF Quest and State Core Gen Ed": {
+      "UF Quest Requirement": "IDSxxxx",
+      "State General Education Requirement": {
+        "Composition": "XXXX",
+        "Humanities": "XXXX",
+        "Social and Behavioral Science": "XXXX",
+        "Mathematics": "XXXX",
+        "Biological and Physical Sciences": "XXXX"
+      }
+    },
+    "CLAS Basic Distribution Requirements": {
+      "Composition Coursework (6 credits)": "XXXX",
+      "Humanities Coursework (9 credits)": "XXXX",
+      "Social & Behavioral Science Coursework (9 credits)": "XXXX",
+      "MAC2311": true,
+      "Mathematics Coursework (6 credits)": "XXXX",
+      "Physical Science Coursework (6 credits)": "XXXX",
+      "Biological Science Coursework (6 credits)": "XXXX"
+    },
+    "General Education International and Diversity Requirement": {
+      "International Focus": "XXXX",
+      "Diversity Focus": "XXXX"
+    },
+    "University Writing Requirement": "XXXX"
+  }

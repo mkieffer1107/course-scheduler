@@ -1,0 +1,114 @@
+Major: Physics
+    Critical Tracking:
+        CHM2045
+        CHM2045L
+        CHM2046
+        MAC2311
+        MAC2312
+        MAC2313
+        PHY2060
+        PHY2061
+        MAP2302
+
+    College Requirements:
+        CLAS Science Laboratory Requirement:
+            AST 1022L
+        CLAS Foreign Language Requirement:
+            GER 1131
+        Elective Outside Major 3000 Level or Above
+            MAC 2312
+            COP 3502C
+            MAC 2313 
+            COP 3503C
+            COT 3100
+
+    Core Requirements:
+        PHY2060
+        PHY2061
+        PHY2048L
+        PHY2049L
+        PHY3101
+        PHY3221
+        PHY4222
+        PHY3323  
+        PHY3513
+        PHY4604
+        PHY4802L
+        Math Electives (6 credits):
+            MAS 4203
+            MAS 4105 
+        Physics Electives (3 credits):
+            PHZ 4710
+    
+    UF Quest and State Core Gen Ed:
+        UF Quest Requirement:
+            IDS 1161
+        State General Education Requirement:
+            Composition:
+                ENC 1101
+            Humanities:
+                MUL 2010
+            Social and Behavioral Science:
+                ECO 2013
+            Mathematics:
+                MAC 2311
+            Biological and Physical Sciences:
+                CHM 1020
+
+    CLAS Basic Distribution Requirements:
+        Composition Coursework (6 credits):
+            AML 2070
+            ENC 1101
+        Humanities Coursework (9 credits):
+            LIT 2120
+            MUL 2010
+            PHI 2010
+        Social & Behavioral Science Coursework (9 credits):
+            INR 2001
+            GEO 2410 
+            ECO 2013 
+        MAC2311:
+            True
+        Mathematics Coursework (6 credits):
+            MAC 1147
+        Physical Science Coursework (6 credits):    
+            CHM 1020
+            AST 1002 
+        Biological Science Coursework (6 credits):
+            BSC 2010
+            BSC 2005
+
+    General Education International and Diversity Requirement:
+        International Focus: 
+            LIT 2120
+        Diversity Focus:
+            GEO 2410
+
+    University Writing Requirement:
+        AML 2070
+        ENC 1101
+        LIT 2120
+        PHI 2010
+
+Minor: COMPUTER & INFORMATION SCIENCE & ENGINEERING 
+    Computer and Information Science and Engineering Minor Requirement:
+        Minor Programming Courses Option 1:
+            COP 3502C 
+            COP 3503C
+        Minor Required Courses:
+            MAC 2312 
+            COT 3100
+            COP 3530
+            CDA 3101
+            COP 4600
+
+Minor: MATHEMATICS
+    Mathematics Minor Coursework:
+        MAC 2312 
+        MAC 2313
+        MAP 2302
+        MAS 4105
+    MAA, MAD, MAP, MAS, MHF, or MTG courses:
+        MAS 4203
+        MAS 4115
+        MAP 4305 
