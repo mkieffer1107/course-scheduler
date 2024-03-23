@@ -5,7 +5,9 @@
 
 > UF Open Source Club’s 24-hour mini-hack submission.
 
-Scheduling classes can be a hassle, especially when having to navigate between different pages such as the degree audit, course scheduler, major course list, and elective course list. The **Course Scheduler** project integrates all these functionalities into one efficient chatbot. This service exemplifies what UF could offer to enhance the student experience, supporting UF's vision of becoming an AI-driven university. 🚀
+When scheduling classes, it is extremely annoying to transition between the degree audit page, the course scheduler, the minor courses list, the major courses list,
+the elective course list, etc. The **Course Scheduler** aims to integrate all of these features into a single chatbot as an example for a service that UF could offer to all students. 
+This would help aid in UF's goal of buliding an AI university! 🚀
 
 Using high-tech tools like RAG 🤖 and Gen AI 🧠, we've created a robust demo within 10 hours that showcases what's possible, even without the extensive resources of a leading AI university. Enjoy and contribute! ❤️
 
