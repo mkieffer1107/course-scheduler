@@ -1,9 +1,8 @@
 # Course Scheduler
 
-![Hackathon](https://osc-hack.devpost.com/)
 ![AI University](https://img.shields.io/badge/AI%20University-UF-<COLOR_CODE>?style=flat-square)
 
-> UF Open Source Club’s 24-hour mini-hack submission.
+> Submission for the [UF Open Source Club’s 24-hour mini-hack](https://osc-hack.devpost.com/).
 
 When scheduling classes, it is extremely annoying to transition between the degree audit page, the course scheduler, the minor courses list, the major courses list,
 the elective course list, etc. The **Course Scheduler** aims to integrate all of these features into a single chatbot as an example for a service that UF could offer to all students. 
