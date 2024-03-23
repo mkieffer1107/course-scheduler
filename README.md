@@ -32,9 +32,7 @@ conda env remove --name scheduler
 
 ## Data Sources
 
-## Data Sources
-
-The following resources are utilized in this project to provide comprehensive information on course offerings, requirements, and catalogs:
+The following resources were referenced in this project:
 
 | Resource | Description | Link |
 |----------|-------------|------|
@@ -43,4 +41,4 @@ The following resources are utilized in this project to provide comprehensive in
 | 2023-2024 Undergraduate Catalog | The official UF undergraduate catalog for the academic years 2023-2024. | [View PDF](https://catalog.ufl.edu/pdf/2023-2024%20Undergraduate%20Catalog%20UF.pdf) |
 | Major and Minor Requirements | Detailed requirements for majors and minors offered at UF. | [View Requirements](https://catalog.ufl.edu/UGRD/programs/) |
 
-Please note that some resources may not be used directly in the project but are included for completeness (brought to you by Claude).
+Please note that some resources may not be used directly in the project but are included for completeness (thank u, Claude <3).
