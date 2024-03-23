@@ -15,7 +15,7 @@ AI university! Enjoy <3
 
 ---
 
-## Working with Conda
+## How to run
 
 Set up Conda Environment
 
@@ -25,7 +25,7 @@ conda activate scheduler
 pip install -r requirements.txt
 ```
 
-Delete Conda Environment
+Delete Conda Environment 
 
 ```sh
 conda deactivate
