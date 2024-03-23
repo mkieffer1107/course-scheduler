@@ -21,7 +21,7 @@ conda activate scheduler
 pip install -r requirements.txt
 ```
 
-### Deleting tbe Envinronment
+### Deleting the Envinronment
 
 ```sh
 conda deactivate
