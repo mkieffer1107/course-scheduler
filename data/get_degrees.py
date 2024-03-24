@@ -25,20 +25,20 @@ def extract_programs(base_url):
     return programs
 
 
-# def fetch_program_details(program, program_type, url, base_url):
-#     """Extracts the details for a given program and returns them as a dictionary"""
-#     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
-#     response = requests.get(program_details["url"])
-#     soup = BeautifulSoup(response.text, "html.parser")
-#     program_details["main"] = soup.get_text(separator=" ", strip=True)
+def fetch_program_details(program, program_type, url, base_url):
+    """Extracts the details for a given program and returns them as a dictionary"""
+    program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
+    response = requests.get(program_details["url"])
+    soup = BeautifulSoup(response.text, "html.parser")
+    program_details["main"] = soup.get_text(separator=" ", strip=True)
 
-#     # fetch each possible section
-#     for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
-#         response = requests.get(f"{program_details['url']}/#{subsection}") 
-#         soup = BeautifulSoup(response.text, "html.parser")
-#         program_details[subsection.replace("text", "")] = soup.get_text(separator=" ", strip=True)
+    # fetch each possible section
+    for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
+        response = requests.get(f"{program_details['url']}/#{subsection}") 
+        soup = BeautifulSoup(response.text, "html.parser")
+        program_details[subsection.replace("text", "")] = soup.get_text(separator=" ", strip=True)
 
-#     return program, program_details
+    return program, program_details
 
 # def fetch_program_details(program, program_type, url, base_url):
 #     """Extracts the details for a given program and returns them as a dictionary"""
@@ -104,6 +104,7 @@ def extract_programs(base_url):
 #     return program, program_details
 
 
+# courtesy of our friend Claude <3
 def fetch_program_details(program, program_type, url, base_url):
     """Extracts the details for a given program and returns them as a dictionary"""
     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
@@ -112,29 +113,48 @@ def fetch_program_details(program, program_type, url, base_url):
         response = requests.get(f"{program_details['url']}/#{subsection}")
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # course_tables = soup.find_all(["table", class_="sc_courselist"], ["table", class_="sc_plangrid"])
-        course_tables = soup.find_all(["table"], class_=["sc_courselist", "sc_plangrid"])
+        # UF uses at least 4 different classes for tables in their course catalog
+        dumb_table_classes = [f"sc_sctable tbl_academiclearningcompact{i}" for i in range(1, 6)]
+        table_classes = ["sc_courselist", "sc_plangrid"] + dumb_table_classes
+        course_tables = soup.find_all(["table", {"class": tbl_class}] for tbl_class in table_classes)
+
         subsection_courses = {}
 
         for table in course_tables:
             if "sc_courselist" in table.get("class", []):
-                current_area = None
-                courses_by_area = {}
-
+                # Handle sc_courselist table
                 rows = table.find_all("tr")
-                for row in rows:
-                    if "areaheader" in row.get("class", []):
-                        current_area = row.find("span", class_="courselistcomment").text.strip()
-                        courses_by_area[current_area] = []
-                    else:
+                has_area_header = any("areaheader" in row.get("class", []) for row in rows)
+
+                if has_area_header:
+                    current_area = None
+                    courses_by_area = {}
+
+                    for row in rows:
+                        if "areaheader" in row.get("class", []):
+                            current_area = row.find("span", class_="courselistcomment").text.strip()
+                            courses_by_area[current_area] = []
+                        else:
+                            cols = row.find_all("td")
+                            if len(cols) >= 2:
+                                course_code = cols[0].text.strip()
+                                if course_code and current_area:
+                                    courses_by_area[current_area].append(course_code)
+
+                    subsection_courses.update(courses_by_area)
+                else:
+                    courses = []
+
+                    for row in rows:
                         cols = row.find_all("td")
                         if len(cols) >= 2:
                             course_code = cols[0].text.strip()
-                            if course_code and current_area:
-                                courses_by_area[current_area].append(course_code)
+                            if course_code:
+                                courses.append(course_code)
 
-                subsection_courses.update(courses_by_area)
+                    subsection_courses["courses"] = courses
             elif "sc_plangrid" in table.get("class", []):
+                # Handle sc_plangrid table
                 current_semester = None
                 courses_by_semester = {}
 
@@ -147,14 +167,27 @@ def fetch_program_details(program, program_type, url, base_url):
                         cols = row.find_all("td")
                         if len(cols) >= 2:
                             course_code = cols[0].text.strip()
-                            if course_code:
+                            if course_code and current_semester:
                                 courses_by_semester[current_semester].append(course_code)
                             else:
                                 course_comment = row.find("span", class_="comment")
-                                if course_comment:
+                                if course_comment and current_semester:
                                     courses_by_semester[current_semester].append(course_comment.text.strip())
 
                 subsection_courses.update(courses_by_semester)
+            elif any(f"sc_sctable tbl_academiclearningcompact{i}" in table.get("class", []) for i in range(1, 6)):
+                # Handle academic learning compact tables
+                rows = table.find_all("tr")
+                courses = []
+
+                for row in rows[1:]:  # Skip the header row
+                    cols = row.find_all("td")
+                    if len(cols) >= 1:
+                        course_code = cols[0].text.strip()
+                        if course_code:
+                            courses.append(course_code)
+
+                subsection_courses["courses"] = courses
 
         program_details[subsection.replace("text", "")] = subsection_courses
 

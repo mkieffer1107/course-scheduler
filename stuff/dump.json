@@ -1,1358 +1,1358 @@
 [
     {
-        "value": 0,
+        "value": "Accounting (major)",
         "label": "Accounting (major)"
     },
     {
-        "value": 1,
+        "value": "Accounting (minor)",
         "label": "Accounting (minor)"
     },
     {
-        "value": 2,
+        "value": "Actuarial Science (minor)",
         "label": "Actuarial Science (minor)"
     },
     {
-        "value": 3,
+        "value": "Advanced Engineering Ceramics (certificate)",
         "label": "Advanced Engineering Ceramics (certificate)"
     },
     {
-        "value": 4,
+        "value": "Advertising (major)",
         "label": "Advertising (major)"
     },
     {
-        "value": 5,
+        "value": "Advertising | Persuasive Messaging (major)",
         "label": "Advertising | Persuasive Messaging (major)"
     },
     {
-        "value": 6,
+        "value": "Aerospace Engineering (major)",
         "label": "Aerospace Engineering (major)"
     },
     {
-        "value": 7,
+        "value": "Aerospace Leadership (minor)",
         "label": "Aerospace Leadership (minor)"
     },
     {
-        "value": 8,
+        "value": "African American Studies (major)",
         "label": "African American Studies (major)"
     },
     {
-        "value": 9,
+        "value": "African American Studies (minor)",
         "label": "African American Studies (minor)"
     },
     {
-        "value": 10,
+        "value": "African Languages (major)",
         "label": "African Languages (major)"
     },
     {
-        "value": 11,
+        "value": "African Studies (minor)",
         "label": "African Studies (minor)"
     },
     {
-        "value": 12,
+        "value": "Agricultural Curriculum and Development (minor)",
         "label": "Agricultural Curriculum and Development (minor)"
     },
     {
-        "value": 13,
+        "value": "Agricultural Education and Communication (major)",
         "label": "Agricultural Education and Communication (major)"
     },
     {
-        "value": 14,
+        "value": "Agricultural Operations Management (major)",
         "label": "Agricultural Operations Management (major)"
     },
     {
-        "value": 15,
+        "value": "Agricultural and Natural Resource Communication (minor)",
         "label": "Agricultural and Natural Resource Communication (minor)"
     },
     {
-        "value": 16,
+        "value": "Agricultural and Natural Resource Ethics and Policy (minor)",
         "label": "Agricultural and Natural Resource Ethics and Policy (minor)"
     },
     {
-        "value": 17,
+        "value": "Agricultural and Natural Resource Law (minor)",
         "label": "Agricultural and Natural Resource Law (minor)"
     },
     {
-        "value": 18,
+        "value": "Agroecology and Sustainable Food Systems (certificate)",
         "label": "Agroecology and Sustainable Food Systems (certificate)"
     },
     {
-        "value": 19,
+        "value": "American Indian and Indigenous Studies (minor)",
         "label": "American Indian and Indigenous Studies (minor)"
     },
     {
-        "value": 20,
+        "value": "Animal Genetics (certificate)",
         "label": "Animal Genetics (certificate)"
     },
     {
-        "value": 21,
+        "value": "Animal Sciences (major)",
         "label": "Animal Sciences (major)"
     },
     {
-        "value": 22,
+        "value": "Anthropology (major)",
         "label": "Anthropology (major)"
     },
     {
-        "value": 23,
+        "value": "Anthropology (minor)",
         "label": "Anthropology (minor)"
     },
     {
-        "value": 24,
+        "value": "Applied Physiology and Kinesiology (major)",
         "label": "Applied Physiology and Kinesiology (major)"
     },
     {
-        "value": 25,
+        "value": "Applied Theatre for Health (certificate)",
         "label": "Applied Theatre for Health (certificate)"
     },
     {
-        "value": 26,
+        "value": "Arabic (major)",
         "label": "Arabic (major)"
     },
     {
-        "value": 27,
+        "value": "Arabic Language and Literature (minor)",
         "label": "Arabic Language and Literature (minor)"
     },
     {
-        "value": 28,
+        "value": "Architecture (major)",
         "label": "Architecture (major)"
     },
     {
-        "value": 29,
+        "value": "Art (minor)",
         "label": "Art (minor)"
     },
     {
-        "value": 30,
+        "value": "Art Education (certificate)",
         "label": "Art Education (certificate)"
     },
     {
-        "value": 31,
+        "value": "Art History  | New World School of the Arts (minor)",
         "label": "Art History  | New World School of the Arts (minor)"
     },
     {
-        "value": 32,
+        "value": "Art History (major)",
         "label": "Art History (major)"
     },
     {
-        "value": 33,
+        "value": "Art History (minor)",
         "label": "Art History (minor)"
     },
     {
-        "value": 34,
+        "value": "Art | BA (major)",
         "label": "Art | BA (major)"
     },
     {
-        "value": 35,
+        "value": "Art | BFA (major)",
         "label": "Art | BFA (major)"
     },
     {
-        "value": 36,
+        "value": "Artificial Intelligence Fundamentals and Applications (certificate)",
         "label": "Artificial Intelligence Fundamentals and Applications (certificate)"
     },
     {
-        "value": 37,
+        "value": "Artificial Intelligence and Data Analytics in Tourism, Hospitality and Event Management (certificate)",
         "label": "Artificial Intelligence and Data Analytics in Tourism, Hospitality and Event Management (certificate)"
     },
     {
-        "value": 38,
+        "value": "Artificial Intelligence in Public Health and Healthcare (certificate)",
         "label": "Artificial Intelligence in Public Health and Healthcare (certificate)"
     },
     {
-        "value": 39,
+        "value": "Asian American Studies (minor)",
         "label": "Asian American Studies (minor)"
     },
     {
-        "value": 40,
+        "value": "Asian Studies (minor)",
         "label": "Asian Studies (minor)"
     },
     {
-        "value": 41,
+        "value": "Astronomy (minor)",
         "label": "Astronomy (minor)"
     },
     {
-        "value": 42,
+        "value": "Astronomy and Astrophysics (major)",
         "label": "Astronomy and Astrophysics (major)"
     },
     {
-        "value": 43,
+        "value": "Beekeeping (certificate)",
         "label": "Beekeeping (certificate)"
     },
     {
-        "value": 44,
+        "value": "Bioinformatics (minor)",
         "label": "Bioinformatics (minor)"
     },
     {
-        "value": 45,
+        "value": "Biological Engineering (major)",
         "label": "Biological Engineering (major)"
     },
     {
-        "value": 46,
+        "value": "Biology (major)",
         "label": "Biology (major)"
     },
     {
-        "value": 47,
+        "value": "Biology | CALS (major)",
         "label": "Biology | CALS (major)"
     },
     {
-        "value": 48,
+        "value": "Biology | CLAS (major)",
         "label": "Biology | CLAS (major)"
     },
     {
-        "value": 49,
+        "value": "Biomaterials (certificate)",
         "label": "Biomaterials (certificate)"
     },
     {
-        "value": 50,
+        "value": "Biomechanics (minor)",
         "label": "Biomechanics (minor)"
     },
     {
-        "value": 51,
+        "value": "Biomedical Engineering (major)",
         "label": "Biomedical Engineering (major)"
     },
     {
-        "value": 52,
+        "value": "Biomolecular Engineering (minor)",
         "label": "Biomolecular Engineering (minor)"
     },
     {
-        "value": 53,
+        "value": "Biosecurity and Biological Invasions (certificate)",
         "label": "Biosecurity and Biological Invasions (certificate)"
     },
     {
-        "value": 54,
+        "value": "Botany (minor)",
         "label": "Botany (minor)"
     },
     {
-        "value": 55,
+        "value": "Botany | CALS (major)",
         "label": "Botany | CALS (major)"
     },
     {
-        "value": 56,
+        "value": "Botany | CLAS (major)",
         "label": "Botany | CLAS (major)"
     },
     {
-        "value": 57,
+        "value": "Business Administration (minor)",
         "label": "Business Administration (minor)"
     },
     {
-        "value": 58,
+        "value": "Business Administration | General Business | BSBA (major)",
         "label": "Business Administration | General Business | BSBA (major)"
     },
     {
-        "value": 59,
+        "value": "Business Administration | General Studies | BABA (major)",
         "label": "Business Administration | General Studies | BABA (major)"
     },
     {
-        "value": 60,
+        "value": "CALS Honors Scholar (certificate)",
         "label": "CALS Honors Scholar (certificate)"
     },
     {
-        "value": 61,
+        "value": "Ceramics (certificate)",
         "label": "Ceramics (certificate)"
     },
     {
-        "value": 62,
+        "value": "Challenge 2050 | Global Leadership and Change (certificate)",
         "label": "Challenge 2050 | Global Leadership and Change (certificate)"
     },
     {
-        "value": 63,
+        "value": "Chemical Engineering (major)",
         "label": "Chemical Engineering (major)"
     },
     {
-        "value": 64,
+        "value": "Chemistry (minor)",
         "label": "Chemistry (minor)"
     },
     {
-        "value": 65,
+        "value": "Chemistry | Biochemistry (major)",
         "label": "Chemistry | Biochemistry (major)"
     },
     {
-        "value": 66,
+        "value": "Chinese (major)",
         "label": "Chinese (major)"
     },
     {
-        "value": 67,
+        "value": "Civil Engineering (major)",
         "label": "Civil Engineering (major)"
     },
     {
-        "value": 68,
+        "value": "Classical Studies (major)",
         "label": "Classical Studies (major)"
     },
     {
-        "value": 69,
+        "value": "Classical Studies (minor)",
         "label": "Classical Studies (minor)"
     },
     {
-        "value": 70,
+        "value": "Communication Sciences and Disorders (major)",
         "label": "Communication Sciences and Disorders (major)"
     },
     {
-        "value": 71,
+        "value": "Communication Sciences and Disorders (minor)",
         "label": "Communication Sciences and Disorders (minor)"
     },
     {
-        "value": 72,
+        "value": "Communication Studies (minor)",
         "label": "Communication Studies (minor)"
     },
     {
-        "value": 73,
+        "value": "Computer Engineering (major)",
         "label": "Computer Engineering (major)"
     },
     {
-        "value": 74,
+        "value": "Computer Science (major)",
         "label": "Computer Science (major)"
     },
     {
-        "value": 75,
+        "value": "Computer Science | CLAS (major)",
         "label": "Computer Science | CLAS (major)"
     },
     {
-        "value": 76,
+        "value": "Computer Science | Herbert Wertheim College of Engineering (major)",
         "label": "Computer Science | Herbert Wertheim College of Engineering (major)"
     },
     {
-        "value": 77,
+        "value": "Computer and Information Science and Engineering (minor)",
         "label": "Computer and Information Science and Engineering (minor)"
     },
     {
-        "value": 78,
+        "value": "Construction Management (certificate)",
         "label": "Construction Management (certificate)"
     },
     {
-        "value": 79,
+        "value": "Construction Management (major)",
         "label": "Construction Management (major)"
     },
     {
-        "value": 80,
+        "value": "Creative Advertising (certificate)",
         "label": "Creative Advertising (certificate)"
     },
     {
-        "value": 81,
+        "value": "Criminology (major)",
         "label": "Criminology (major)"
     },
     {
-        "value": 82,
+        "value": "Dance (minor)",
         "label": "Dance (minor)"
     },
     {
-        "value": 83,
+        "value": "Dance in Medicine (certificate)",
         "label": "Dance in Medicine (certificate)"
     },
     {
-        "value": 84,
+        "value": "Dance | Bachelor of Arts (major)",
         "label": "Dance | Bachelor of Arts (major)"
     },
     {
-        "value": 85,
+        "value": "Dance | Bachelor of Fine Arts (major)",
         "label": "Dance | Bachelor of Fine Arts (major)"
     },
     {
-        "value": 86,
+        "value": "Data Analytics (certificate)",
         "label": "Data Analytics (certificate)"
     },
     {
-        "value": 87,
+        "value": "Data Science (major)",
         "label": "Data Science (major)"
     },
     {
-        "value": 88,
+        "value": "Deaf and Hearing Sciences (minor)",
         "label": "Deaf and Hearing Sciences (minor)"
     },
     {
-        "value": 89,
+        "value": "Dietetics (major)",
         "label": "Dietetics (major)"
     },
     {
-        "value": 90,
+        "value": "Digital Arts and Sciences (major)",
         "label": "Digital Arts and Sciences (major)"
     },
     {
-        "value": 91,
+        "value": "Digital Arts and Sciences (minor)",
         "label": "Digital Arts and Sciences (minor)"
     },
     {
-        "value": 92,
+        "value": "Digital Arts and Sciences | Bachelor of Arts (major)",
         "label": "Digital Arts and Sciences | Bachelor of Arts (major)"
     },
     {
-        "value": 93,
+        "value": "Digital Arts and Sciences | Bachelor of Science (major)",
         "label": "Digital Arts and Sciences | Bachelor of Science (major)"
     },
     {
-        "value": 94,
+        "value": "Disabilities in Society (minor)",
         "label": "Disabilities in Society (minor)"
     },
     {
-        "value": 95,
+        "value": "Disability Science (minor)",
         "label": "Disability Science (minor)"
     },
     {
-        "value": 96,
+        "value": "Dual Languages (major)",
         "label": "Dual Languages (major)"
     },
     {
-        "value": 97,
+        "value": "Early Childhood Studies (minor)",
         "label": "Early Childhood Studies (minor)"
     },
     {
-        "value": 98,
+        "value": "East Asian Languages and Literatures (minor)",
         "label": "East Asian Languages and Literatures (minor)"
     },
     {
-        "value": 99,
+        "value": "East-Central European Studies (certificate)",
         "label": "East-Central European Studies (certificate)"
     },
     {
-        "value": 100,
+        "value": "East-Central European Studies (minor)",
         "label": "East-Central European Studies (minor)"
     },
     {
-        "value": 101,
+        "value": "Econometric and Data Analysis (certificate)",
         "label": "Econometric and Data Analysis (certificate)"
     },
     {
-        "value": 102,
+        "value": "Economics (major)",
         "label": "Economics (major)"
     },
     {
-        "value": 103,
+        "value": "Economics (minor)",
         "label": "Economics (minor)"
     },
     {
-        "value": 104,
+        "value": "Education Sciences (major)",
         "label": "Education Sciences (major)"
     },
     {
-        "value": 105,
+        "value": "Education Studies (minor)",
         "label": "Education Studies (minor)"
     },
     {
-        "value": 106,
+        "value": "Education | Early Childhood Education | Age 3 - Grade 3 (major)",
         "label": "Education | Early Childhood Education | Age 3 - Grade 3 (major)"
     },
     {
-        "value": 107,
+        "value": "Educational Technology (minor)",
         "label": "Educational Technology (minor)"
     },
     {
-        "value": 108,
+        "value": "Electrical Engineering (major)",
         "label": "Electrical Engineering (major)"
     },
     {
-        "value": 109,
+        "value": "Electrical Engineering (minor)",
         "label": "Electrical Engineering (minor)"
     },
     {
-        "value": 110,
+        "value": "Elementary Education | Grades K-6 (major)",
         "label": "Elementary Education | Grades K-6 (major)"
     },
     {
-        "value": 111,
+        "value": "Emergency Management (certificate)",
         "label": "Emergency Management (certificate)"
     },
     {
-        "value": 112,
+        "value": "Emergency Medical Services Management (certificate)",
         "label": "Emergency Medical Services Management (certificate)"
     },
     {
-        "value": 113,
+        "value": "Engineering Innovation (certificate)",
         "label": "Engineering Innovation (certificate)"
     },
     {
-        "value": 114,
+        "value": "Engineering Innovation (minor)",
         "label": "Engineering Innovation (minor)"
     },
     {
-        "value": 115,
+        "value": "Engineering Leadership (certificate)",
         "label": "Engineering Leadership (certificate)"
     },
     {
-        "value": 116,
+        "value": "Engineering Project Management (certificate)",
         "label": "Engineering Project Management (certificate)"
     },
     {
-        "value": 117,
+        "value": "Engineering | Exploring Engineering Studies (major)",
         "label": "Engineering | Exploring Engineering Studies (major)"
     },
     {
-        "value": 118,
+        "value": "English (major)",
         "label": "English (major)"
     },
     {
-        "value": 119,
+        "value": "English (minor)",
         "label": "English (minor)"
     },
     {
-        "value": 120,
+        "value": "Entomology and Nematology (major)",
         "label": "Entomology and Nematology (major)"
     },
     {
-        "value": 121,
+        "value": "Entomology and Nematology (minor)",
         "label": "Entomology and Nematology (minor)"
     },
     {
-        "value": 122,
+        "value": "Entrepreneurship (minor)",
         "label": "Entrepreneurship (minor)"
     },
     {
-        "value": 123,
+        "value": "Environmental Engineering (major)",
         "label": "Environmental Engineering (major)"
     },
     {
-        "value": 124,
+        "value": "Environmental Horticulture (minor)",
         "label": "Environmental Horticulture (minor)"
     },
     {
-        "value": 125,
+        "value": "Environmental Horticulture Management (certificate)",
         "label": "Environmental Horticulture Management (certificate)"
     },
     {
-        "value": 126,
+        "value": "Environmental Justice and Policy (minor)",
         "label": "Environmental Justice and Policy (minor)"
     },
     {
-        "value": 127,
+        "value": "Environmental Management in Agriculture and Natural Resources | Interdisciplinary Studies (major)",
         "label": "Environmental Management in Agriculture and Natural Resources | Interdisciplinary Studies (major)"
     },
     {
-        "value": 128,
+        "value": "Environmental Policy, Law, and Regulation (certificate)",
         "label": "Environmental Policy, Law, and Regulation (certificate)"
     },
     {
-        "value": 129,
+        "value": "Environmental Science (major)",
         "label": "Environmental Science (major)"
     },
     {
-        "value": 130,
+        "value": "Environmental Science (minor)",
         "label": "Environmental Science (minor)"
     },
     {
-        "value": 131,
+        "value": "Ethics and Society (certificate)",
         "label": "Ethics and Society (certificate)"
     },
     {
-        "value": 132,
+        "value": "European Jewish Studies (certificate)",
         "label": "European Jewish Studies (certificate)"
     },
     {
-        "value": 133,
+        "value": "European Union Studies (certificate)",
         "label": "European Union Studies (certificate)"
     },
     {
-        "value": 134,
+        "value": "European Union Studies (minor)",
         "label": "European Union Studies (minor)"
     },
     {
-        "value": 135,
+        "value": "Event Management (minor)",
         "label": "Event Management (minor)"
     },
     {
-        "value": 136,
+        "value": "Extension Education (minor)",
         "label": "Extension Education (minor)"
     },
     {
-        "value": 137,
+        "value": "Family, Youth and Community Sciences (major)",
         "label": "Family, Youth and Community Sciences (major)"
     },
     {
-        "value": 138,
+        "value": "Family, Youth and Community Sciences (minor)",
         "label": "Family, Youth and Community Sciences (minor)"
     },
     {
-        "value": 139,
+        "value": "Finance (major)",
         "label": "Finance (major)"
     },
     {
-        "value": 140,
+        "value": "Fire Ecology and Management (certificate)",
         "label": "Fire Ecology and Management (certificate)"
     },
     {
-        "value": 141,
+        "value": "Fire and Emergency Services (major)",
         "label": "Fire and Emergency Services (major)"
     },
     {
-        "value": 142,
+        "value": "Fisheries and Aquatic Sciences (minor)",
         "label": "Fisheries and Aquatic Sciences (minor)"
     },
     {
-        "value": 143,
+        "value": "Florida Teaching (minor)",
         "label": "Florida Teaching (minor)"
     },
     {
-        "value": 144,
+        "value": "Food Science (major)",
         "label": "Food Science (major)"
     },
     {
-        "value": 145,
+        "value": "Food Science (minor)",
         "label": "Food Science (minor)"
     },
     {
-        "value": 146,
+        "value": "Food and Resource Economics (major)",
         "label": "Food and Resource Economics (major)"
     },
     {
-        "value": 147,
+        "value": "Food and Resource Economics (minor)",
         "label": "Food and Resource Economics (minor)"
     },
     {
-        "value": 148,
+        "value": "Foreign Languages and Literatures (major)",
         "label": "Foreign Languages and Literatures (major)"
     },
     {
-        "value": 149,
+        "value": "Forest Resources and Conservation (major)",
         "label": "Forest Resources and Conservation (major)"
     },
     {
-        "value": 150,
+        "value": "Forest Resources and Conservation (minor)",
         "label": "Forest Resources and Conservation (minor)"
     },
     {
-        "value": 151,
+        "value": "French and Francophone Studies (major)",
         "label": "French and Francophone Studies (major)"
     },
     {
-        "value": 152,
+        "value": "French and Francophone Studies (minor)",
         "label": "French and Francophone Studies (minor)"
     },
     {
-        "value": 153,
+        "value": "Geographic Artificial Intelligence and Big Data (certificate)",
         "label": "Geographic Artificial Intelligence and Big Data (certificate)"
     },
     {
-        "value": 154,
+        "value": "Geography (major)",
         "label": "Geography (major)"
     },
     {
-        "value": 155,
+        "value": "Geography (minor)",
         "label": "Geography (minor)"
     },
     {
-        "value": 156,
+        "value": "Geography | Bachelor of Arts (UF Online)",
         "label": "Geography | Bachelor of Arts (UF Online)"
     },
     {
-        "value": 157,
+        "value": "Geological Sciences (certificate)",
         "label": "Geological Sciences (certificate)"
     },
     {
-        "value": 158,
+        "value": "Geology (major)",
         "label": "Geology (major)"
     },
     {
-        "value": 159,
+        "value": "Geology (minor)",
         "label": "Geology (minor)"
     },
     {
-        "value": 160,
+        "value": "Geomatics (certificate)",
         "label": "Geomatics (certificate)"
     },
     {
-        "value": 161,
+        "value": "Geomatics (major)",
         "label": "Geomatics (major)"
     },
     {
-        "value": 162,
+        "value": "Geospatial Information Analysis (certificate)",
         "label": "Geospatial Information Analysis (certificate)"
     },
     {
-        "value": 163,
+        "value": "German (major)",
         "label": "German (major)"
     },
     {
-        "value": 164,
+        "value": "German (minor)",
         "label": "German (minor)"
     },
     {
-        "value": 165,
+        "value": "Golf and Sports Turf Management (minor)",
         "label": "Golf and Sports Turf Management (minor)"
     },
     {
-        "value": 166,
+        "value": "Graphic Design (certificate)",
         "label": "Graphic Design (certificate)"
     },
     {
-        "value": 167,
+        "value": "Graphic Design (major)",
         "label": "Graphic Design (major)"
     },
     {
-        "value": 168,
+        "value": "Graphic Design (minor)",
         "label": "Graphic Design (minor)"
     },
     {
-        "value": 169,
+        "value": "Greek Studies (minor)",
         "label": "Greek Studies (minor)"
     },
     {
-        "value": 170,
+        "value": "Health Disparities in Society (minor)",
         "label": "Health Disparities in Society (minor)"
     },
     {
-        "value": 171,
+        "value": "Health Education and Behavior (major)",
         "label": "Health Education and Behavior (major)"
     },
     {
-        "value": 172,
+        "value": "Health Education and Behavior | Community Health Promotion (major)",
         "label": "Health Education and Behavior | Community Health Promotion (major)"
     },
     {
-        "value": 173,
+        "value": "Health Promotion (minor)",
         "label": "Health Promotion (minor)"
     },
     {
-        "value": 174,
+        "value": "Health Science (major)",
         "label": "Health Science (major)"
     },
     {
-        "value": 175,
+        "value": "Health Science (minor)",
         "label": "Health Science (minor)"
     },
     {
-        "value": 176,
+        "value": "Hebrew (major)",
         "label": "Hebrew (major)"
     },
     {
-        "value": 177,
+        "value": "Hebrew (minor)",
         "label": "Hebrew (minor)"
     },
     {
-        "value": 178,
+        "value": "Hispanic and Latin American Languages, Literatures and Linguistics (major)",
         "label": "Hispanic and Latin American Languages, Literatures and Linguistics (major)"
     },
     {
-        "value": 179,
+        "value": "History (major)",
         "label": "History (major)"
     },
     {
-        "value": 180,
+        "value": "History (minor)",
         "label": "History (minor)"
     },
     {
-        "value": 181,
+        "value": "Holocaust Studies (certificate)",
         "label": "Holocaust Studies (certificate)"
     },
     {
-        "value": 182,
+        "value": "Horticultural Science (major)",
         "label": "Horticultural Science (major)"
     },
     {
-        "value": 183,
+        "value": "Horticultural Science (minor)",
         "label": "Horticultural Science (minor)"
     },
     {
-        "value": 184,
+        "value": "Horticultural Therapy (certificate)",
         "label": "Horticultural Therapy (certificate)"
     },
     {
-        "value": 185,
+        "value": "Industrial and Systems Engineering (major)",
         "label": "Industrial and Systems Engineering (major)"
     },
     {
-        "value": 186,
+        "value": "Information Systems (major)",
         "label": "Information Systems (major)"
     },
     {
-        "value": 187,
+        "value": "Information Systems (minor)",
         "label": "Information Systems (minor)"
     },
     {
-        "value": 188,
+        "value": "Innovation (minor)",
         "label": "Innovation (minor)"
     },
     {
-        "value": 189,
+        "value": "Interdisciplinary Studies | CLAS (major)",
         "label": "Interdisciplinary Studies | CLAS (major)"
     },
     {
-        "value": 190,
+        "value": "Interdisciplinary Studies | Environmental Management in Agriculture and Natural Resources (major)",
         "label": "Interdisciplinary Studies | Environmental Management in Agriculture and Natural Resources (major)"
     },
     {
-        "value": 191,
+        "value": "Interior Design (major)",
         "label": "Interior Design (major)"
     },
     {
-        "value": 192,
+        "value": "International Communication (certificate)",
         "label": "International Communication (certificate)"
     },
     {
-        "value": 193,
+        "value": "International Development and Humanitarian Assistance (minor)",
         "label": "International Development and Humanitarian Assistance (minor)"
     },
     {
-        "value": 194,
+        "value": "International Relations (certificate)",
         "label": "International Relations (certificate)"
     },
     {
-        "value": 195,
+        "value": "International Studies (major)",
         "label": "International Studies (major)"
     },
     {
-        "value": 196,
+        "value": "International Studies in Agricultural and Life Sciences (minor)",
         "label": "International Studies in Agricultural and Life Sciences (minor)"
     },
     {
-        "value": 197,
+        "value": "Israel Studies (certificate)",
         "label": "Israel Studies (certificate)"
     },
     {
-        "value": 198,
+        "value": "Italian (major)",
         "label": "Italian (major)"
     },
     {
-        "value": 199,
+        "value": "Italian Studies (minor)",
         "label": "Italian Studies (minor)"
     },
     {
-        "value": 200,
+        "value": "Japanese (major)",
         "label": "Japanese (major)"
     },
     {
-        "value": 201,
+        "value": "Jazz Studies (minor)",
         "label": "Jazz Studies (minor)"
     },
     {
-        "value": 202,
+        "value": "Jewish Studies (major)",
         "label": "Jewish Studies (major)"
     },
     {
-        "value": 203,
+        "value": "Jewish Studies (minor)",
         "label": "Jewish Studies (minor)"
     },
     {
-        "value": 204,
+        "value": "Journalism (major)",
         "label": "Journalism (major)"
     },
     {
-        "value": 205,
+        "value": "Journalism | Sports and Media (major)",
         "label": "Journalism | Sports and Media (major)"
     },
     {
-        "value": 206,
+        "value": "Landscape Architecture (minor)",
         "label": "Landscape Architecture (minor)"
     },
     {
-        "value": 207,
+        "value": "Landscape Architecture | 4-Year Professional Program (major)",
         "label": "Landscape Architecture | 4-Year Professional Program (major)"
     },
     {
-        "value": 208,
+        "value": "Landscape Pest Management (certificate)",
         "label": "Landscape Pest Management (certificate)"
     },
     {
-        "value": 209,
+        "value": "Latin American Studies (certificate)",
         "label": "Latin American Studies (certificate)"
     },
     {
-        "value": 210,
+        "value": "Latin American Studies (minor)",
         "label": "Latin American Studies (minor)"
     },
     {
-        "value": 211,
+        "value": "Leadership (minor)",
         "label": "Leadership (minor)"
     },
     {
-        "value": 212,
+        "value": "Legal History (certificate)",
         "label": "Legal History (certificate)"
     },
     {
-        "value": 213,
+        "value": "Linguistics (major)",
         "label": "Linguistics (major)"
     },
     {
-        "value": 214,
+        "value": "Linguistics (minor)",
         "label": "Linguistics (minor)"
     },
     {
-        "value": 215,
+        "value": "Management (major)",
         "label": "Management (major)"
     },
     {
-        "value": 216,
+        "value": "Management and Sales in Agribusiness (minor)",
         "label": "Management and Sales in Agribusiness (minor)"
     },
     {
-        "value": 217,
+        "value": "Mapping with Small Unmanned Aerial Systems (certificate)",
         "label": "Mapping with Small Unmanned Aerial Systems (certificate)"
     },
     {
-        "value": 218,
+        "value": "Marine Sciences | CALS (major)",
         "label": "Marine Sciences | CALS (major)"
     },
     {
-        "value": 219,
+        "value": "Marine Sciences | CLAS (major)",
         "label": "Marine Sciences | CLAS (major)"
     },
     {
-        "value": 220,
+        "value": "Marketing (major)",
         "label": "Marketing (major)"
     },
     {
-        "value": 221,
+        "value": "Mass Communication Studies (minor)",
         "label": "Mass Communication Studies (minor)"
     },
     {
-        "value": 222,
+        "value": "Materials Science and Engineering (major)",
         "label": "Materials Science and Engineering (major)"
     },
     {
-        "value": 223,
+        "value": "Materials Science and Engineering (minor)",
         "label": "Materials Science and Engineering (minor)"
     },
     {
-        "value": 224,
+        "value": "Mathematics (major)",
         "label": "Mathematics (major)"
     },
     {
-        "value": 225,
+        "value": "Mathematics (minor)",
         "label": "Mathematics (minor)"
     },
     {
-        "value": 226,
+        "value": "Mechanical Engineering (major)",
         "label": "Mechanical Engineering (major)"
     },
     {
-        "value": 227,
+        "value": "Media Production, Management, and Technology (major)",
         "label": "Media Production, Management, and Technology (major)"
     },
     {
-        "value": 228,
+        "value": "Media Production, Management, and Technology | Media and Society (major)",
         "label": "Media Production, Management, and Technology | Media and Society (major)"
     },
     {
-        "value": 229,
+        "value": "Media Sales (certificate)",
         "label": "Media Sales (certificate)"
     },
     {
-        "value": 230,
+        "value": "Medical Anthropology (certificate)",
         "label": "Medical Anthropology (certificate)"
     },
     {
-        "value": 231,
+        "value": "Medical Entomology (certificate)",
         "label": "Medical Entomology (certificate)"
     },
     {
-        "value": 232,
+        "value": "Medical Geography (certificate)",
         "label": "Medical Geography (certificate)"
     },
     {
-        "value": 233,
+        "value": "Medical Geography in Global Health (minor)",
         "label": "Medical Geography in Global Health (minor)"
     },
     {
-        "value": 234,
+        "value": "Medieval and Early Modern Studies (minor)",
         "label": "Medieval and Early Modern Studies (minor)"
     },
     {
-        "value": 235,
+        "value": "Metallurgical Engineering (certificate)",
         "label": "Metallurgical Engineering (certificate)"
     },
     {
-        "value": 236,
+        "value": "Meteorology and Climatology (certificate)",
         "label": "Meteorology and Climatology (certificate)"
     },
     {
-        "value": 237,
+        "value": "Microbiology and Cell Science (major)",
         "label": "Microbiology and Cell Science (major)"
     },
     {
-        "value": 238,
+        "value": "Microbiology and Cell Science | CALS (major)",
         "label": "Microbiology and Cell Science | CALS (major)"
     },
     {
-        "value": 239,
+        "value": "Microbiology and Cell Science | CLAS (major)",
         "label": "Microbiology and Cell Science | CLAS (major)"
     },
     {
-        "value": 240,
+        "value": "Military Science and Leadership (minor)",
         "label": "Military Science and Leadership (minor)"
     },
     {
-        "value": 241,
+        "value": "Music Education (certificate)",
         "label": "Music Education (certificate)"
     },
     {
-        "value": 242,
+        "value": "Music Education (major)",
         "label": "Music Education (major)"
     },
     {
-        "value": 243,
+        "value": "Music History | Ethnomusicology (minor)",
         "label": "Music History | Ethnomusicology (minor)"
     },
     {
-        "value": 244,
+        "value": "Music Performance (certificate)",
         "label": "Music Performance (certificate)"
     },
     {
-        "value": 245,
+        "value": "Music Performance (minor)",
         "label": "Music Performance (minor)"
     },
     {
-        "value": 246,
+        "value": "Music Theory (minor)",
         "label": "Music Theory (minor)"
     },
     {
-        "value": 247,
+        "value": "Music in Medicine (certificate)",
         "label": "Music in Medicine (certificate)"
     },
     {
-        "value": 248,
+        "value": "Music | Bachelor of Arts (major)",
         "label": "Music | Bachelor of Arts (major)"
     },
     {
-        "value": 249,
+        "value": "Music | Bachelor of Music (major)",
         "label": "Music | Bachelor of Music (major)"
     },
     {
-        "value": 250,
+        "value": "Natural Resource Conservation (major)",
         "label": "Natural Resource Conservation (major)"
     },
     {
-        "value": 251,
+        "value": "Nonprofit Organizational Leadership (minor)",
         "label": "Nonprofit Organizational Leadership (minor)"
     },
     {
-        "value": 252,
+        "value": "Nuclear Engineering (major)",
         "label": "Nuclear Engineering (major)"
     },
     {
-        "value": 253,
+        "value": "Nuclear and Radiological Engineering (minor)",
         "label": "Nuclear and Radiological Engineering (minor)"
     },
     {
-        "value": 254,
+        "value": "Nursing (major)",
         "label": "Nursing (major)"
     },
     {
-        "value": 255,
+        "value": "Nursing | RN to BSN (major)",
         "label": "Nursing | RN to BSN (major)"
     },
     {
-        "value": 256,
+        "value": "Nutritional Sciences (major)",
         "label": "Nutritional Sciences (major)"
     },
     {
-        "value": 257,
+        "value": "Nutritional Sciences (minor)",
         "label": "Nutritional Sciences (minor)"
     },
     {
-        "value": 258,
+        "value": "Organic and Sustainable Crop Production (minor)",
         "label": "Organic and Sustainable Crop Production (minor)"
     },
     {
-        "value": 259,
+        "value": "Packaging Engineering (certificate)",
         "label": "Packaging Engineering (certificate)"
     },
     {
-        "value": 260,
+        "value": "Packaging Science (minor)",
         "label": "Packaging Science (minor)"
     },
     {
-        "value": 261,
+        "value": "Pathogenesis (minor)",
         "label": "Pathogenesis (minor)"
     },
     {
-        "value": 262,
+        "value": "Pest Control Technology (certificate)",
         "label": "Pest Control Technology (certificate)"
     },
     {
-        "value": 263,
+        "value": "Pharmacy | Preprofessional (major)",
         "label": "Pharmacy | Preprofessional (major)"
     },
     {
-        "value": 264,
+        "value": "Philosophy (major)",
         "label": "Philosophy (major)"
     },
     {
-        "value": 265,
+        "value": "Philosophy (minor)",
         "label": "Philosophy (minor)"
     },
     {
-        "value": 266,
+        "value": "Physics (major)",
         "label": "Physics (major)"
     },
     {
-        "value": 267,
+        "value": "Physics (minor)",
         "label": "Physics (minor)"
     },
     {
-        "value": 268,
+        "value": "Plant Molecular and Cellular Biology (minor)",
         "label": "Plant Molecular and Cellular Biology (minor)"
     },
     {
-        "value": 269,
+        "value": "Plant Science (major)",
         "label": "Plant Science (major)"
     },
     {
-        "value": 270,
+        "value": "Plant Science (minor)",
         "label": "Plant Science (minor)"
     },
     {
-        "value": 271,
+        "value": "Political Campaigning (certificate)",
         "label": "Political Campaigning (certificate)"
     },
     {
-        "value": 272,
+        "value": "Political Communication (certificate)",
         "label": "Political Communication (certificate)"
     },
     {
-        "value": 273,
+        "value": "Political Science (major)",
         "label": "Political Science (major)"
     },
     {
-        "value": 274,
+        "value": "Polymer Science and Engineering (certificate)",
         "label": "Polymer Science and Engineering (certificate)"
     },
     {
-        "value": 275,
+        "value": "Portuguese (major)",
         "label": "Portuguese (major)"
     },
     {
-        "value": 276,
+        "value": "Portuguese (minor)",
         "label": "Portuguese (minor)"
     },
     {
-        "value": 277,
+        "value": "Precision Agriculture (minor)",
         "label": "Precision Agriculture (minor)"
     },
     {
-        "value": 278,
+        "value": "Professional Selling (minor)",
         "label": "Professional Selling (minor)"
     },
     {
-        "value": 279,
+        "value": "Psychology (major)",
         "label": "Psychology (major)"
     },
     {
-        "value": 280,
+        "value": "Public Affairs (certificate)",
         "label": "Public Affairs (certificate)"
     },
     {
-        "value": 281,
+        "value": "Public Health (major)",
         "label": "Public Health (major)"
     },
     {
-        "value": 282,
+        "value": "Public Health (minor)",
         "label": "Public Health (minor)"
     },
     {
-        "value": 283,
+        "value": "Public Leadership (minor)",
         "label": "Public Leadership (minor)"
     },
     {
-        "value": 284,
+        "value": "Public Relations (major)",
         "label": "Public Relations (major)"
     },
     {
-        "value": 285,
+        "value": "Public Relations (minor)",
         "label": "Public Relations (minor)"
     },
     {
-        "value": 286,
+        "value": "Real Estate (minor)",
         "label": "Real Estate (minor)"
     },
     {
-        "value": 287,
+        "value": "Recreation Resources Management (certificate)",
         "label": "Recreation Resources Management (certificate)"
     },
     {
-        "value": 288,
+        "value": "Religion (major)",
         "label": "Religion (major)"
     },
     {
-        "value": 289,
+        "value": "Religion (minor)",
         "label": "Religion (minor)"
     },
     {
-        "value": 290,
+        "value": "Retailing (minor)",
         "label": "Retailing (minor)"
     },
     {
-        "value": 291,
+        "value": "Russian (major)",
         "label": "Russian (major)"
     },
     {
-        "value": 292,
+        "value": "Russian (minor)",
         "label": "Russian (minor)"
     },
     {
-        "value": 293,
+        "value": "Russian and East-European Area Studies (certificate)",
         "label": "Russian and East-European Area Studies (certificate)"
     },
     {
-        "value": 294,
+        "value": "Sales Engineering (minor)",
         "label": "Sales Engineering (minor)"
     },
     {
-        "value": 295,
+        "value": "Semiconductor Materials (certificate)",
         "label": "Semiconductor Materials (certificate)"
     },
     {
-        "value": 296,
+        "value": "Senior Fire Officer (certificate)",
         "label": "Senior Fire Officer (certificate)"
     },
     {
-        "value": 297,
+        "value": "Sociology (major)",
         "label": "Sociology (major)"
     },
     {
-        "value": 298,
+        "value": "Sociology (minor)",
         "label": "Sociology (minor)"
     },
     {
-        "value": 299,
+        "value": "Sociology of Social Justice and Policy (minor)",
         "label": "Sociology of Social Justice and Policy (minor)"
     },
     {
-        "value": 300,
+        "value": "Soil, Water, and Ecosystem Sciences (major)",
         "label": "Soil, Water, and Ecosystem Sciences (major)"
     },
     {
-        "value": 301,
+        "value": "Soil, Water, and Ecosystem Sciences (minor)",
         "label": "Soil, Water, and Ecosystem Sciences (minor)"
     },
     {
-        "value": 302,
+        "value": "Spanish (major)",
         "label": "Spanish (major)"
     },
     {
-        "value": 303,
+        "value": "Spanish (minor)",
         "label": "Spanish (minor)"
     },
     {
-        "value": 304,
+        "value": "Spanish Language News Media (certificate)",
         "label": "Spanish Language News Media (certificate)"
     },
     {
-        "value": 305,
+        "value": "Spanish and Portuguese (major)",
         "label": "Spanish and Portuguese (major)"
     },
     {
-        "value": 306,
+        "value": "Spanish for the Professions (certificate)",
         "label": "Spanish for the Professions (certificate)"
     },
     {
-        "value": 307,
+        "value": "Sport Management (certificate)",
         "label": "Sport Management (certificate)"
     },
     {
-        "value": 308,
+        "value": "Sport Management (major)",
         "label": "Sport Management (major)"
     },
     {
-        "value": 309,
+        "value": "Sport and Entertainment Law and Risk Management (certificate)",
         "label": "Sport and Entertainment Law and Risk Management (certificate)"
     },
     {
-        "value": 310,
+        "value": "Statistics (major)",
         "label": "Statistics (major)"
     },
     {
-        "value": 311,
+        "value": "Statistics (minor)",
         "label": "Statistics (minor)"
     },
     {
-        "value": 312,
+        "value": "Sustainability Studies (major)",
         "label": "Sustainability Studies (major)"
     },
     {
-        "value": 313,
+        "value": "Sustainability Studies (minor)",
         "label": "Sustainability Studies (minor)"
     },
     {
-        "value": 314,
+        "value": "Sustainability and the Built Environment (major)",
         "label": "Sustainability and the Built Environment (major)"
     },
     {
-        "value": 315,
+        "value": "Sustainability and the Built Environment (minor)",
         "label": "Sustainability and the Built Environment (minor)"
     },
     {
-        "value": 316,
+        "value": "Sustainable and Resilient Energy Engineering (certificate)",
         "label": "Sustainable and Resilient Energy Engineering (certificate)"
     },
     {
-        "value": 317,
+        "value": "Teaching English as a Second Language (certificate)",
         "label": "Teaching English as a Second Language (certificate)"
     },
     {
-        "value": 318,
+        "value": "Teaching English as a Second Language (minor)",
         "label": "Teaching English as a Second Language (minor)"
     },
     {
-        "value": 319,
+        "value": "Theatre (major)",
         "label": "Theatre (major)"
     },
     {
-        "value": 320,
+        "value": "Theatre (minor)",
         "label": "Theatre (minor)"
     },
     {
-        "value": 321,
+        "value": "Theatre Performance (major)",
         "label": "Theatre Performance (major)"
     },
     {
-        "value": 322,
+        "value": "Theatre Production (major)",
         "label": "Theatre Production (major)"
     },
     {
-        "value": 323,
+        "value": "Theatre Production (minor)",
         "label": "Theatre Production (minor)"
     },
     {
-        "value": 324,
+        "value": "Theories and Politics of Sexuality (minor)",
         "label": "Theories and Politics of Sexuality (minor)"
     },
     {
-        "value": 325,
+        "value": "Tourism, Hospitality and Event Management (major)",
         "label": "Tourism, Hospitality and Event Management (major)"
     },
     {
-        "value": 326,
+        "value": "Translation Studies (certificate)",
         "label": "Translation Studies (certificate)"
     },
     {
-        "value": 327,
+        "value": "UFTeach | Mathematics or Science (minor)",
         "label": "UFTeach | Mathematics or Science (minor)"
     },
     {
-        "value": 328,
+        "value": "Urban Forestry (certificate)",
         "label": "Urban Forestry (certificate)"
     },
     {
-        "value": 329,
+        "value": "Urban Pest Management (certificate)",
         "label": "Urban Pest Management (certificate)"
     },
     {
-        "value": 330,
+        "value": "Urban and Regional Planning (minor)",
         "label": "Urban and Regional Planning (minor)"
     },
     {
-        "value": 331,
+        "value": "Visual Arts in Medicine (certificate)",
         "label": "Visual Arts in Medicine (certificate)"
     },
     {
-        "value": 332,
+        "value": "Wealth Management (minor)",
         "label": "Wealth Management (minor)"
     },
     {
-        "value": 333,
+        "value": "Wildlife Ecology and Conservation (major)",
         "label": "Wildlife Ecology and Conservation (major)"
     },
     {
-        "value": 334,
+        "value": "Wildlife Ecology and Conservation (minor)",
         "label": "Wildlife Ecology and Conservation (minor)"
     },
     {
-        "value": 335,
+        "value": "Women's Studies (major)",
         "label": "Women's Studies (major)"
     },
     {
-        "value": 336,
+        "value": "Women's Studies (minor)",
         "label": "Women's Studies (minor)"
     },
     {
-        "value": 337,
+        "value": "Zoology (major)",
         "label": "Zoology (major)"
     },
     {
-        "value": 338,
+        "value": "Zoology (minor)",
         "label": "Zoology (minor)"
     }
 ]
