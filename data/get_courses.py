@@ -41,6 +41,7 @@ def fetch_major_courses(major, url, base_url):
 
     return major, url, courses
 
+
 def main():
     base_url = "https://catalog.ufl.edu"
     response = requests.get(base_url + "/UGRD/courses/")
@@ -73,6 +74,7 @@ def main():
         json.dump(majors_courses_sorted, file, ensure_ascii=False, indent=4)
 
     print("Results saved to courses.json")
+
 
 if __name__ == "__main__":
     main()

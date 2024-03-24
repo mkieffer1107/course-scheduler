@@ -17,7 +17,9 @@ def extract_programs(base_url):
         learn_more_link = div.find("div", class_="description").find("a")
         if title_element and type_element and learn_more_link and "href" in learn_more_link.attrs:
             program_name = title_element.text.strip()
-            program_type = type_element.text.strip().replace("| UF Online", "")  # do not include UF online programs to keep things simple
+            program_type = type_element.text.strip().replace("| UF Online", "").strip()  # do not include UF online programs to keep things simple
+
+
             program_url = base_url + learn_more_link.attrs["href"]
             programs.append((program_name, program_type, program_url))
     return programs
@@ -57,11 +59,12 @@ def main():
     # sort the dictionary alphabetically by program name
     sorted_programs_details = dict(sorted(programs_details.items()))
 
-    file_path = "programs_details.json"
+    file_path = "programs.json"
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(sorted_programs_details, file, ensure_ascii=False, indent=4)
 
     print("Results saved to", file_path)
+
 
 if __name__ == "__main__":
     main()
