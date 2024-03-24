@@ -192,10 +192,19 @@ if __name__ == "__main__":
 
 
 '''
-
-ACG 2021	Introduction to Financial Accounting	codecol
-or AEB 3144	Introduction to Agricultural Finance    orclass odd  /  orclass even
-
-
-
+Traceback (most recent call last):
+  File "/Users/mkieffer/programming/ml/course-scheduler/data/get_degrees.py", line 190, in <module>
+    main()
+  File "/Users/mkieffer/programming/ml/course-scheduler/data/get_degrees.py", line 174, in main
+    program, details = future.result()
+  File "/Users/mkieffer/miniforge3/envs/scheduler/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/Users/mkieffer/miniforge3/envs/scheduler/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/Users/mkieffer/miniforge3/envs/scheduler/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/mkieffer/programming/ml/course-scheduler/data/get_degrees.py", line 151, in fetch_program_details
+    courses_by_semester[current_semester].append(course_code)
+KeyError: None
+(scheduler) mkieffer@
 '''
