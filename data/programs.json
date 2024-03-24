@@ -2755,14 +2755,215 @@
         }
     },
     "Anthropology (major)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_BA_BS/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_BA_UFO/",
         "type": "major",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "criticaltracking": {
+            "Anthropology Core Courses": [
+                "ANT 2410",
+                "ANT 2140",
+                "ANT 3514C",
+                "ANT 3620",
+                "ANT 4931"
+            ],
+            "Anthropology BA Electives": [
+                "3000 level and above",
+                "4000 level",
+                "Any level"
+            ],
+            "Related Coursework": [
+                "STA 2023",
+                "Total Credits"
+            ],
+            "Semester One": [
+                "ANT 2410",
+                "State Core Gen Ed Biological or Physical Sciences",
+                "State Core Gen Ed Composition (Writing Requirement)",
+                "Foreign language",
+                "Elective"
+            ],
+            "Semester Two": [
+                "ANT 2140",
+                "Quest 1 (Gen Ed Humanities)",
+                "Foreign language",
+                "State Core Gen Ed Mathematics",
+                "ANT 2000"
+            ],
+            "Semester Three": [
+                "ANT 3514C",
+                "STA 2023",
+                "Gen Ed Biological or Physical Sciences (area not taken in semester one)",
+                "Elective (or foreign language if 4-3-3 option)",
+                "State Core Gen Ed Humanities"
+            ],
+            "Semester Four": [
+                "ANT 3620",
+                "Electives",
+                "Gen Ed Humanities",
+                "Gen Ed Physical Sciences"
+            ],
+            "Semester Five": [
+                "Anthropology electives",
+                "Select one composition course (ENC 3254 or ANT 3860 recommended):",
+                "ENC 3254",
+                "ANT 3860",
+                "Electives"
+            ],
+            "Semester Six": [
+                "Anthropology electives (one at 3000 level or above; one at 4000 level)",
+                "Elective",
+                "Electives (3000 level or above; not in major)"
+            ],
+            "Semester Seven": [
+                "Anthropology elective (4000 level)",
+                "Anthropology elective (1000-4000 level) 1",
+                "Elective",
+                "Electives (3000 level or above; not in major)"
+            ],
+            "Semester Eight": [
+                "ANT 4931",
+                "Electives",
+                "Electives (3000 level or above; not in major)"
+            ]
+        },
+        "modelsemesterplan": {
+            "Anthropology Core Courses": [
+                "ANT 2410",
+                "ANT 2140",
+                "ANT 3514C",
+                "ANT 3620",
+                "ANT 4931"
+            ],
+            "Anthropology BA Electives": [
+                "3000 level and above",
+                "4000 level",
+                "Any level"
+            ],
+            "Related Coursework": [
+                "STA 2023",
+                "Total Credits"
+            ],
+            "Semester One": [
+                "ANT 2410",
+                "State Core Gen Ed Biological or Physical Sciences",
+                "State Core Gen Ed Composition (Writing Requirement)",
+                "Foreign language",
+                "Elective"
+            ],
+            "Semester Two": [
+                "ANT 2140",
+                "Quest 1 (Gen Ed Humanities)",
+                "Foreign language",
+                "State Core Gen Ed Mathematics",
+                "ANT 2000"
+            ],
+            "Semester Three": [
+                "ANT 3514C",
+                "STA 2023",
+                "Gen Ed Biological or Physical Sciences (area not taken in semester one)",
+                "Elective (or foreign language if 4-3-3 option)",
+                "State Core Gen Ed Humanities"
+            ],
+            "Semester Four": [
+                "ANT 3620",
+                "Electives",
+                "Gen Ed Humanities",
+                "Gen Ed Physical Sciences"
+            ],
+            "Semester Five": [
+                "Anthropology electives",
+                "Select one composition course (ENC 3254 or ANT 3860 recommended):",
+                "ENC 3254",
+                "ANT 3860",
+                "Electives"
+            ],
+            "Semester Six": [
+                "Anthropology electives (one at 3000 level or above; one at 4000 level)",
+                "Elective",
+                "Electives (3000 level or above; not in major)"
+            ],
+            "Semester Seven": [
+                "Anthropology elective (4000 level)",
+                "Anthropology elective (1000-4000 level) 1",
+                "Elective",
+                "Electives (3000 level or above; not in major)"
+            ],
+            "Semester Eight": [
+                "ANT 4931",
+                "Electives",
+                "Electives (3000 level or above; not in major)"
+            ]
+        },
+        "academiclearningcompact": {
+            "Anthropology Core Courses": [
+                "ANT 2410",
+                "ANT 2140",
+                "ANT 3514C",
+                "ANT 3620",
+                "ANT 4931"
+            ],
+            "Anthropology BA Electives": [
+                "3000 level and above",
+                "4000 level",
+                "Any level"
+            ],
+            "Related Coursework": [
+                "STA 2023",
+                "Total Credits"
+            ],
+            "Semester One": [
+                "ANT 2410",
+                "State Core Gen Ed Biological or Physical Sciences",
+                "State Core Gen Ed Composition (Writing Requirement)",
+                "Foreign language",
+                "Elective"
+            ],
+            "Semester Two": [
+                "ANT 2140",
+                "Quest 1 (Gen Ed Humanities)",
+                "Foreign language",
+                "State Core Gen Ed Mathematics",
+                "ANT 2000"
+            ],
+            "Semester Three": [
+                "ANT 3514C",
+                "STA 2023",
+                "Gen Ed Biological or Physical Sciences (area not taken in semester one)",
+                "Elective (or foreign language if 4-3-3 option)",
+                "State Core Gen Ed Humanities"
+            ],
+            "Semester Four": [
+                "ANT 3620",
+                "Electives",
+                "Gen Ed Humanities",
+                "Gen Ed Physical Sciences"
+            ],
+            "Semester Five": [
+                "Anthropology electives",
+                "Select one composition course (ENC 3254 or ANT 3860 recommended):",
+                "ENC 3254",
+                "ANT 3860",
+                "Electives"
+            ],
+            "Semester Six": [
+                "Anthropology electives (one at 3000 level or above; one at 4000 level)",
+                "Elective",
+                "Electives (3000 level or above; not in major)"
+            ],
+            "Semester Seven": [
+                "Anthropology elective (4000 level)",
+                "Anthropology elective (1000-4000 level) 1",
+                "Elective",
+                "Electives (3000 level or above; not in major)"
+            ],
+            "Semester Eight": [
+                "ANT 4931",
+                "Electives",
+                "Electives (3000 level or above; not in major)"
+            ]
+        }
     },
     "Anthropology (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_UMN/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/APY_UMN_UFO/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
@@ -2771,7 +2972,7 @@
                 "ANT 2410",
                 "ANT 3514C",
                 "ANT 3620",
-                "ANT courses (3000/4000 level; excluding individual work)",
+                "ANT courses (3000/4000 level) 1",
                 "Total Credits"
             ]
         },
@@ -2782,7 +2983,7 @@
                 "ANT 2410",
                 "ANT 3514C",
                 "ANT 3620",
-                "ANT courses (3000/4000 level; excluding individual work)",
+                "ANT courses (3000/4000 level) 1",
                 "Total Credits"
             ]
         },
@@ -2793,7 +2994,7 @@
                 "ANT 2410",
                 "ANT 3514C",
                 "ANT 3620",
-                "ANT courses (3000/4000 level; excluding individual work)",
+                "ANT courses (3000/4000 level) 1",
                 "Total Credits"
             ]
         }
@@ -5012,36 +5213,27 @@
         }
     },
     "Bioinformatics (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/BIF_UMN/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/BIF_UMN_UFO/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
                 "BSC 4914",
-                "HOS 3305",
-                "MAP 4484",
-                "PCB 3063",
-                "PCB 4674",
-                "PCB 5065"
+                "MCB 4934",
+                "PCB 3063"
             ]
         },
         "modelsemesterplan": {
             "courses": [
                 "BSC 4914",
-                "HOS 3305",
-                "MAP 4484",
-                "PCB 3063",
-                "PCB 4674",
-                "PCB 5065"
+                "MCB 4934",
+                "PCB 3063"
             ]
         },
         "academiclearningcompact": {
             "courses": [
                 "BSC 4914",
-                "HOS 3305",
-                "MAP 4484",
-                "PCB 3063",
-                "PCB 4674",
-                "PCB 5065"
+                "MCB 4934",
+                "PCB 3063"
             ]
         }
     },
@@ -6042,7 +6234,7 @@
         "academiclearningcompact": {}
     },
     "Business Administration (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGBUS/BUS_UMN/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGBUS/BUS_UMN_UFO/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
@@ -6601,10 +6793,7 @@
     },
     "CALS Honors Scholar (certificate)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/AGL_UCT01/",
-        "type": "certificate",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "certificate"
     },
     "Ceramics (certificate)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGART/ART_UCT02/",
@@ -9552,20 +9741,18 @@
         }
     },
     "Criminology (major)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CRI_BA_UFO/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/CRI_BA/",
         "type": "major",
         "criticaltracking": {
             "Foundation (Tracking) Coursework": [
                 "In the first four terms, students enroll in criminology-related foundation courses, which include:",
                 "STA 2023",
                 "Select one option:",
-                "Option A",
-                "Select 9 credits of introductory criminal justice/criminology courses (CCJ, CJL or CJE prefixes), including:",
+                "Option A: Select 9 credits of introductory criminal justice/criminology courses (CCJ, CJL or CJE prefixes), including:",
                 "CCJ 3024",
                 "CJL 2000",
                 "CJL 3038",
-                "Option B",
-                "Select 9 credits from the following or their equivalents:",
+                "Option B: Select 9 credits from the following or their equivalents:",
                 "AMH 2010",
                 "AMH 2020",
                 "ANT 2000",
@@ -9592,42 +9779,43 @@
                 "CJL 4110",
                 "CJL 4410",
                 "Criminology Electives",
-                "Select a minimum of 18 credits 3",
-                "Students may select up to 9 credits from approved interdisciplinary courses outside of criminology to count toward the criminology electives requirement  4",
-                "Total Credits"
+                "Select a minimum of 18 credits  3",
+                "Students may select up to 9 additional credits from approved interdisciplinary courses outside of criminology. 4",
+                "Statistics Course Requirement",
+                "STA 2023"
             ],
             "Semester One": [
-                "Criminology-related course (Critical Tracking)",
                 "State Core Gen Ed Biological or Physical Sciences",
-                "State Core Gen Ed Composition (Writing Requirement)",
+                "State Core Gen Ed Composition; Writing Requirement",
+                "Criminology-related course (Critical Tracking)",
                 "Foreign language"
             ],
             "Semester Two": [
-                "Quest 1 (Gen Ed Humanities)",
                 "CCJ 3024",
+                "Quest 1 (Gen Ed Humanities)",
                 "State Core Gen Ed Mathematics",
                 "Foreign language",
                 "Elective"
             ],
             "Semester Three": [
-                "Quest 2 Course (Gen Ed Biological or Physical Science)",
+                "Quest 2 (Gen Ed Biological or Physical Science)",
                 "STA 2023",
-                "State Core Gen Ed Humanities",
                 "Criminology-related course (Critical Tracking)",
+                "State Core Gen Ed Humanities",
                 "Elective (or foreign language if 4-3-3 option)"
             ],
             "Semester Four": [
-                "Gen Ed Biological or Physical Sciences (area not taken in semester one)",
+                "Gen Ed Biological or Physical Sciences (area NOT taken in semester 1)",
                 "Gen Ed Humanities",
+                "Science Laboratory (Gen Ed Biological or Physical Sciences)",
                 "State Core Gen Ed Social and Behavioral Sciences (if needed; several criminology-related courses meet this requirement)",
-                "Science laboratory (Gen Ed Physical or Biological Sciences)",
                 "Electives"
             ],
             "Semester Five": [
                 "CCJ 3024",
                 "Gen Ed Biological Sciences or Physical Science (area not taken for Quest 2 course in Semester 3)",
-                "Gen Ed Composition (Writing Requirement)",
-                "Approved Criminology elective",
+                "Gen Ed Composition; Writing Requirement",
+                "Approved Criminology elective; Critical Tracking",
                 "Elective (3000 level or above, not in major)"
             ],
             "Semester Six": [
@@ -9646,15 +9834,34 @@
                 "Electives (3000 level or above, not in major)"
             ],
             "courses": [
+                "AEB 4085",
+                "AMH 3551",
+                "AMH 3552",
+                "AMH 3558",
+                "AMH 4316",
+                "AMH 4319",
+                "AMH 4550",
                 "ANT 3451",
                 "ANT 3520",
+                "ANT 4273",
+                "ANT 4740",
                 "BUL 4310",
+                "ECP 4451",
                 "EEX 4520",
+                "ENC 3464",
+                "ENC 3465",
+                "LEI 4800",
                 "MDU 4031",
                 "MMC 4200",
                 "PAD 3003",
+                "POS 3603",
+                "POS 3606",
+                "POS 4624",
                 "SPM 4723",
-                "SYP 3510"
+                "STA 3024",
+                "STA 4222",
+                "SYP 3510",
+                "URP 4882"
             ]
         },
         "modelsemesterplan": {
@@ -9662,13 +9869,11 @@
                 "In the first four terms, students enroll in criminology-related foundation courses, which include:",
                 "STA 2023",
                 "Select one option:",
-                "Option A",
-                "Select 9 credits of introductory criminal justice/criminology courses (CCJ, CJL or CJE prefixes), including:",
+                "Option A: Select 9 credits of introductory criminal justice/criminology courses (CCJ, CJL or CJE prefixes), including:",
                 "CCJ 3024",
                 "CJL 2000",
                 "CJL 3038",
-                "Option B",
-                "Select 9 credits from the following or their equivalents:",
+                "Option B: Select 9 credits from the following or their equivalents:",
                 "AMH 2010",
                 "AMH 2020",
                 "ANT 2000",
@@ -9695,42 +9900,43 @@
                 "CJL 4110",
                 "CJL 4410",
                 "Criminology Electives",
-                "Select a minimum of 18 credits 3",
-                "Students may select up to 9 credits from approved interdisciplinary courses outside of criminology to count toward the criminology electives requirement  4",
-                "Total Credits"
+                "Select a minimum of 18 credits  3",
+                "Students may select up to 9 additional credits from approved interdisciplinary courses outside of criminology. 4",
+                "Statistics Course Requirement",
+                "STA 2023"
             ],
             "Semester One": [
-                "Criminology-related course (Critical Tracking)",
                 "State Core Gen Ed Biological or Physical Sciences",
-                "State Core Gen Ed Composition (Writing Requirement)",
+                "State Core Gen Ed Composition; Writing Requirement",
+                "Criminology-related course (Critical Tracking)",
                 "Foreign language"
             ],
             "Semester Two": [
-                "Quest 1 (Gen Ed Humanities)",
                 "CCJ 3024",
+                "Quest 1 (Gen Ed Humanities)",
                 "State Core Gen Ed Mathematics",
                 "Foreign language",
                 "Elective"
             ],
             "Semester Three": [
-                "Quest 2 Course (Gen Ed Biological or Physical Science)",
+                "Quest 2 (Gen Ed Biological or Physical Science)",
                 "STA 2023",
-                "State Core Gen Ed Humanities",
                 "Criminology-related course (Critical Tracking)",
+                "State Core Gen Ed Humanities",
                 "Elective (or foreign language if 4-3-3 option)"
             ],
             "Semester Four": [
-                "Gen Ed Biological or Physical Sciences (area not taken in semester one)",
+                "Gen Ed Biological or Physical Sciences (area NOT taken in semester 1)",
                 "Gen Ed Humanities",
+                "Science Laboratory (Gen Ed Biological or Physical Sciences)",
                 "State Core Gen Ed Social and Behavioral Sciences (if needed; several criminology-related courses meet this requirement)",
-                "Science laboratory (Gen Ed Physical or Biological Sciences)",
                 "Electives"
             ],
             "Semester Five": [
                 "CCJ 3024",
                 "Gen Ed Biological Sciences or Physical Science (area not taken for Quest 2 course in Semester 3)",
-                "Gen Ed Composition (Writing Requirement)",
-                "Approved Criminology elective",
+                "Gen Ed Composition; Writing Requirement",
+                "Approved Criminology elective; Critical Tracking",
                 "Elective (3000 level or above, not in major)"
             ],
             "Semester Six": [
@@ -9749,15 +9955,34 @@
                 "Electives (3000 level or above, not in major)"
             ],
             "courses": [
+                "AEB 4085",
+                "AMH 3551",
+                "AMH 3552",
+                "AMH 3558",
+                "AMH 4316",
+                "AMH 4319",
+                "AMH 4550",
                 "ANT 3451",
                 "ANT 3520",
+                "ANT 4273",
+                "ANT 4740",
                 "BUL 4310",
+                "ECP 4451",
                 "EEX 4520",
+                "ENC 3464",
+                "ENC 3465",
+                "LEI 4800",
                 "MDU 4031",
                 "MMC 4200",
                 "PAD 3003",
+                "POS 3603",
+                "POS 3606",
+                "POS 4624",
                 "SPM 4723",
-                "SYP 3510"
+                "STA 3024",
+                "STA 4222",
+                "SYP 3510",
+                "URP 4882"
             ]
         },
         "academiclearningcompact": {
@@ -9765,13 +9990,11 @@
                 "In the first four terms, students enroll in criminology-related foundation courses, which include:",
                 "STA 2023",
                 "Select one option:",
-                "Option A",
-                "Select 9 credits of introductory criminal justice/criminology courses (CCJ, CJL or CJE prefixes), including:",
+                "Option A: Select 9 credits of introductory criminal justice/criminology courses (CCJ, CJL or CJE prefixes), including:",
                 "CCJ 3024",
                 "CJL 2000",
                 "CJL 3038",
-                "Option B",
-                "Select 9 credits from the following or their equivalents:",
+                "Option B: Select 9 credits from the following or their equivalents:",
                 "AMH 2010",
                 "AMH 2020",
                 "ANT 2000",
@@ -9798,42 +10021,43 @@
                 "CJL 4110",
                 "CJL 4410",
                 "Criminology Electives",
-                "Select a minimum of 18 credits 3",
-                "Students may select up to 9 credits from approved interdisciplinary courses outside of criminology to count toward the criminology electives requirement  4",
-                "Total Credits"
+                "Select a minimum of 18 credits  3",
+                "Students may select up to 9 additional credits from approved interdisciplinary courses outside of criminology. 4",
+                "Statistics Course Requirement",
+                "STA 2023"
             ],
             "Semester One": [
-                "Criminology-related course (Critical Tracking)",
                 "State Core Gen Ed Biological or Physical Sciences",
-                "State Core Gen Ed Composition (Writing Requirement)",
+                "State Core Gen Ed Composition; Writing Requirement",
+                "Criminology-related course (Critical Tracking)",
                 "Foreign language"
             ],
             "Semester Two": [
-                "Quest 1 (Gen Ed Humanities)",
                 "CCJ 3024",
+                "Quest 1 (Gen Ed Humanities)",
                 "State Core Gen Ed Mathematics",
                 "Foreign language",
                 "Elective"
             ],
             "Semester Three": [
-                "Quest 2 Course (Gen Ed Biological or Physical Science)",
+                "Quest 2 (Gen Ed Biological or Physical Science)",
                 "STA 2023",
-                "State Core Gen Ed Humanities",
                 "Criminology-related course (Critical Tracking)",
+                "State Core Gen Ed Humanities",
                 "Elective (or foreign language if 4-3-3 option)"
             ],
             "Semester Four": [
-                "Gen Ed Biological or Physical Sciences (area not taken in semester one)",
+                "Gen Ed Biological or Physical Sciences (area NOT taken in semester 1)",
                 "Gen Ed Humanities",
+                "Science Laboratory (Gen Ed Biological or Physical Sciences)",
                 "State Core Gen Ed Social and Behavioral Sciences (if needed; several criminology-related courses meet this requirement)",
-                "Science laboratory (Gen Ed Physical or Biological Sciences)",
                 "Electives"
             ],
             "Semester Five": [
                 "CCJ 3024",
                 "Gen Ed Biological Sciences or Physical Science (area not taken for Quest 2 course in Semester 3)",
-                "Gen Ed Composition (Writing Requirement)",
-                "Approved Criminology elective",
+                "Gen Ed Composition; Writing Requirement",
+                "Approved Criminology elective; Critical Tracking",
                 "Elective (3000 level or above, not in major)"
             ],
             "Semester Six": [
@@ -9852,15 +10076,34 @@
                 "Electives (3000 level or above, not in major)"
             ],
             "courses": [
+                "AEB 4085",
+                "AMH 3551",
+                "AMH 3552",
+                "AMH 3558",
+                "AMH 4316",
+                "AMH 4319",
+                "AMH 4550",
                 "ANT 3451",
                 "ANT 3520",
+                "ANT 4273",
+                "ANT 4740",
                 "BUL 4310",
+                "ECP 4451",
                 "EEX 4520",
+                "ENC 3464",
+                "ENC 3465",
+                "LEI 4800",
                 "MDU 4031",
                 "MMC 4200",
                 "PAD 3003",
+                "POS 3603",
+                "POS 3606",
+                "POS 4624",
                 "SPM 4723",
-                "SYP 3510"
+                "STA 3024",
+                "STA 4222",
+                "SYP 3510",
+                "URP 4882"
             ]
         }
     },
@@ -13963,13 +14206,13 @@
         "academiclearningcompact": {}
     },
     "Entomology and Nematology (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/ENY_UMN/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/ENY_UMN_UFO/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
                 "ENY 3005& 3005L",
                 "ENY 4161",
-                "ALS, ENY, IPM, NEM, or PMA-prefixed courses 2",
+                "ALS, ENY, IPM, NEM, or PMA-prefixed courses 1",
                 "Total Credits"
             ]
         },
@@ -13977,7 +14220,7 @@
             "courses": [
                 "ENY 3005& 3005L",
                 "ENY 4161",
-                "ALS, ENY, IPM, NEM, or PMA-prefixed courses 2",
+                "ALS, ENY, IPM, NEM, or PMA-prefixed courses 1",
                 "Total Credits"
             ]
         },
@@ -13985,7 +14228,7 @@
             "courses": [
                 "ENY 3005& 3005L",
                 "ENY 4161",
-                "ALS, ENY, IPM, NEM, or PMA-prefixed courses 2",
+                "ALS, ENY, IPM, NEM, or PMA-prefixed courses 1",
                 "Total Credits"
             ]
         }
@@ -16127,10 +16370,7 @@
     },
     "Fisheries and Aquatic Sciences (minor)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/FAS_UMN/",
-        "type": "minor",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "minor"
     },
     "Florida Teaching (minor)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGEDU/FLT_UMN/",
@@ -17780,35 +18020,41 @@
         "academiclearningcompact": {}
     },
     "Geography (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GPY_UMN_UFO/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GPY_UMN/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
-                "GEO 2200",
                 "Select one:",
+                "GEA 1000",
+                "GEO 2410",
                 "GEO 2420",
                 "GEO 2500",
-                "GEA, GEO, GIS, or MET courses (3000/4000 level) 1",
+                "GEO 2200",
+                "GEA, GEO, GIS, or MET courses (3000/4000 level, excluding individual work courses)",
                 "Total Credits"
             ]
         },
         "modelsemesterplan": {
             "courses": [
-                "GEO 2200",
                 "Select one:",
+                "GEA 1000",
+                "GEO 2410",
                 "GEO 2420",
                 "GEO 2500",
-                "GEA, GEO, GIS, or MET courses (3000/4000 level) 1",
+                "GEO 2200",
+                "GEA, GEO, GIS, or MET courses (3000/4000 level, excluding individual work courses)",
                 "Total Credits"
             ]
         },
         "academiclearningcompact": {
             "courses": [
-                "GEO 2200",
                 "Select one:",
+                "GEA 1000",
+                "GEO 2410",
                 "GEO 2420",
                 "GEO 2500",
-                "GEA, GEO, GIS, or MET courses (3000/4000 level) 1",
+                "GEO 2200",
+                "GEA, GEO, GIS, or MET courses (3000/4000 level, excluding individual work courses)",
                 "Total Credits"
             ]
         }
@@ -18158,227 +18404,11 @@
         }
     },
     "Geology (major)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_BA_UFO/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_BA_BS/",
         "type": "major",
-        "criticaltracking": {
-            "Introductory Coursework": [
-                "Select one general introductory course:",
-                "GLY 2010C",
-                "GLY 2030C",
-                "Any 1000-2000-level GLY, OCE or ESC course",
-                "Select one historical geology course:",
-                "GLY 3105C",
-                "GLY 2100C"
-            ],
-            "Core Coursework": [
-                "GLY 3202C",
-                "or GLY 3200C",
-                "Additional Geology courses at the 3000 level or higher 1",
-                "1000-4000 level Geology course"
-            ],
-            "Capstone Course": [
-                "GLY 4155C",
-                "Total Credits"
-            ],
-            "Semester One": [
-                "Quest 1 (Gen Ed Humanities)",
-                "State Core Gen Ed Composition; Writing Requirement",
-                "State Core Gen Ed Mathematics (Critical Tracking)",
-                "Foreign language",
-                "Select one elective"
-            ],
-            "Semester Two": [
-                "Select one:",
-                "GLY 2010C",
-                "ESC 1000",
-                "GLY 1000",
-                "OCE 1001",
-                "State Core Gen Ed Biological Sciences",
-                "State Core Gen Ed Social and Behavioral Sciences",
-                "Foreign language"
-            ],
-            "Semester Three": [
-                "Quest 2 (Gen Ed Social and Behavioral Sciences)",
-                "Select one:",
-                "GLY 2100C",
-                "GLY 3105C",
-                "Elective or foreign language if 4-3-3 option",
-                "Electives"
-            ],
-            "Semester Four": [
-                "GLY 3202C",
-                "Gen Ed Biological Sciences",
-                "State Core Gen Ed Humanities",
-                "Gen Ed Mathematics  1",
-                "Gen Ed Social and Behavioral Sciences"
-            ],
-            "Semester Five": [
-                "Gen Ed Composition",
-                "Electives (3000 level or above, not in major)",
-                "Geology elective (Critical Tracking; 3000 level or above",
-                "Gen Ed Humanities"
-            ],
-            "Semester Six": [
-                "Geology electives (3000 level or above)",
-                "Electives (3000 level or above, not in major)"
-            ],
-            "Semester Seven": [
-                "Geology electives (3000 level or above)",
-                "Electives"
-            ],
-            "Semester Eight": [
-                "GLY 4155C",
-                "Geology elective",
-                "Electives (3000 level or above, not in major)",
-                "Electives"
-            ]
-        },
-        "modelsemesterplan": {
-            "Introductory Coursework": [
-                "Select one general introductory course:",
-                "GLY 2010C",
-                "GLY 2030C",
-                "Any 1000-2000-level GLY, OCE or ESC course",
-                "Select one historical geology course:",
-                "GLY 3105C",
-                "GLY 2100C"
-            ],
-            "Core Coursework": [
-                "GLY 3202C",
-                "or GLY 3200C",
-                "Additional Geology courses at the 3000 level or higher 1",
-                "1000-4000 level Geology course"
-            ],
-            "Capstone Course": [
-                "GLY 4155C",
-                "Total Credits"
-            ],
-            "Semester One": [
-                "Quest 1 (Gen Ed Humanities)",
-                "State Core Gen Ed Composition; Writing Requirement",
-                "State Core Gen Ed Mathematics (Critical Tracking)",
-                "Foreign language",
-                "Select one elective"
-            ],
-            "Semester Two": [
-                "Select one:",
-                "GLY 2010C",
-                "ESC 1000",
-                "GLY 1000",
-                "OCE 1001",
-                "State Core Gen Ed Biological Sciences",
-                "State Core Gen Ed Social and Behavioral Sciences",
-                "Foreign language"
-            ],
-            "Semester Three": [
-                "Quest 2 (Gen Ed Social and Behavioral Sciences)",
-                "Select one:",
-                "GLY 2100C",
-                "GLY 3105C",
-                "Elective or foreign language if 4-3-3 option",
-                "Electives"
-            ],
-            "Semester Four": [
-                "GLY 3202C",
-                "Gen Ed Biological Sciences",
-                "State Core Gen Ed Humanities",
-                "Gen Ed Mathematics  1",
-                "Gen Ed Social and Behavioral Sciences"
-            ],
-            "Semester Five": [
-                "Gen Ed Composition",
-                "Electives (3000 level or above, not in major)",
-                "Geology elective (Critical Tracking; 3000 level or above",
-                "Gen Ed Humanities"
-            ],
-            "Semester Six": [
-                "Geology electives (3000 level or above)",
-                "Electives (3000 level or above, not in major)"
-            ],
-            "Semester Seven": [
-                "Geology electives (3000 level or above)",
-                "Electives"
-            ],
-            "Semester Eight": [
-                "GLY 4155C",
-                "Geology elective",
-                "Electives (3000 level or above, not in major)",
-                "Electives"
-            ]
-        },
-        "academiclearningcompact": {
-            "Introductory Coursework": [
-                "Select one general introductory course:",
-                "GLY 2010C",
-                "GLY 2030C",
-                "Any 1000-2000-level GLY, OCE or ESC course",
-                "Select one historical geology course:",
-                "GLY 3105C",
-                "GLY 2100C"
-            ],
-            "Core Coursework": [
-                "GLY 3202C",
-                "or GLY 3200C",
-                "Additional Geology courses at the 3000 level or higher 1",
-                "1000-4000 level Geology course"
-            ],
-            "Capstone Course": [
-                "GLY 4155C",
-                "Total Credits"
-            ],
-            "Semester One": [
-                "Quest 1 (Gen Ed Humanities)",
-                "State Core Gen Ed Composition; Writing Requirement",
-                "State Core Gen Ed Mathematics (Critical Tracking)",
-                "Foreign language",
-                "Select one elective"
-            ],
-            "Semester Two": [
-                "Select one:",
-                "GLY 2010C",
-                "ESC 1000",
-                "GLY 1000",
-                "OCE 1001",
-                "State Core Gen Ed Biological Sciences",
-                "State Core Gen Ed Social and Behavioral Sciences",
-                "Foreign language"
-            ],
-            "Semester Three": [
-                "Quest 2 (Gen Ed Social and Behavioral Sciences)",
-                "Select one:",
-                "GLY 2100C",
-                "GLY 3105C",
-                "Elective or foreign language if 4-3-3 option",
-                "Electives"
-            ],
-            "Semester Four": [
-                "GLY 3202C",
-                "Gen Ed Biological Sciences",
-                "State Core Gen Ed Humanities",
-                "Gen Ed Mathematics  1",
-                "Gen Ed Social and Behavioral Sciences"
-            ],
-            "Semester Five": [
-                "Gen Ed Composition",
-                "Electives (3000 level or above, not in major)",
-                "Geology elective (Critical Tracking; 3000 level or above",
-                "Gen Ed Humanities"
-            ],
-            "Semester Six": [
-                "Geology electives (3000 level or above)",
-                "Electives (3000 level or above, not in major)"
-            ],
-            "Semester Seven": [
-                "Geology electives (3000 level or above)",
-                "Electives"
-            ],
-            "Semester Eight": [
-                "GLY 4155C",
-                "Geology elective",
-                "Electives (3000 level or above, not in major)",
-                "Electives"
-            ]
-        }
+        "criticaltracking": {},
+        "modelsemesterplan": {},
+        "academiclearningcompact": {}
     },
     "Geology (minor)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/GLY_UMN/",
@@ -20015,39 +20045,60 @@
         }
     },
     "Health Promotion (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGHHU/HEP_UMN_UFO/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGHHU/HEP_UMN/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
                 "HSC 4133",
+                "HSC 4134",
                 "HSC 4143",
+                "HSC 4174",
                 "HSC 4233",
                 "HSC 4574",
                 "HSC 4579",
                 "HSC 4593",
-                "HSC 4623"
+                "HSC 4623",
+                "HSC 4624",
+                "HSC 4663",
+                "HSC 4664",
+                "HSC 4694",
+                "HSC 4950"
             ]
         },
         "modelsemesterplan": {
             "courses": [
                 "HSC 4133",
+                "HSC 4134",
                 "HSC 4143",
+                "HSC 4174",
                 "HSC 4233",
                 "HSC 4574",
                 "HSC 4579",
                 "HSC 4593",
-                "HSC 4623"
+                "HSC 4623",
+                "HSC 4624",
+                "HSC 4663",
+                "HSC 4664",
+                "HSC 4694",
+                "HSC 4950"
             ]
         },
         "academiclearningcompact": {
             "courses": [
                 "HSC 4133",
+                "HSC 4134",
                 "HSC 4143",
+                "HSC 4174",
                 "HSC 4233",
                 "HSC 4574",
                 "HSC 4579",
                 "HSC 4593",
-                "HSC 4623"
+                "HSC 4623",
+                "HSC 4624",
+                "HSC 4663",
+                "HSC 4664",
+                "HSC 4694",
+                "HSC 4950"
             ]
         }
     },
@@ -21904,10 +21955,7 @@
     },
     "Interdisciplinary Studies | CLAS (major)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/IDS_BA_BS/",
-        "type": "major",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "major"
     },
     "Interdisciplinary Studies | Environmental Management in Agriculture and Natural Resources (major)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/IS_BS01_UFO/",
@@ -22733,10 +22781,7 @@
     },
     "International Studies in Agricultural and Life Sciences (minor)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/ISA_UMN/",
-        "type": "minor",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "minor"
     },
     "Israel Studies (certificate)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/LAS_UCT26/",
@@ -25335,10 +25380,7 @@
     },
     "Latin American Studies (certificate)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/LAS_UCT08/",
-        "type": "certificate",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "certificate"
     },
     "Latin American Studies (minor)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/LAM_UMN/",
@@ -25989,35 +26031,23 @@
         }
     },
     "Management and Sales in Agribusiness (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/MGT_UMN/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/MGT_UMN_UFO/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
-                "AEB 3315",
-                "AEB 4138",
-                "AEB 4309",
-                "AEB 4342",
-                "AEB 4343",
+                "AEB 3671",
                 "AEB 4424"
             ]
         },
         "modelsemesterplan": {
             "courses": [
-                "AEB 3315",
-                "AEB 4138",
-                "AEB 4309",
-                "AEB 4342",
-                "AEB 4343",
+                "AEB 3671",
                 "AEB 4424"
             ]
         },
         "academiclearningcompact": {
             "courses": [
-                "AEB 3315",
-                "AEB 4138",
-                "AEB 4309",
-                "AEB 4342",
-                "AEB 4343",
+                "AEB 3671",
                 "AEB 4424"
             ]
         }
@@ -28117,10 +28147,7 @@
     },
     "Medieval and Early Modern Studies (minor)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/MEM_UMN/",
-        "type": "minor",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "minor"
     },
     "Metallurgical Engineering (certificate)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/ENG_UCT03/",
@@ -32897,7 +32924,7 @@
         }
     },
     "Public Relations (major)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGJRC/PR_BSPR_UFO/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGJRC/PR_BSPR/",
         "type": "major",
         "criticaltracking": {
             "courses": [
@@ -34735,7 +34762,7 @@
         }
     },
     "Sociology (minor)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_UMN_UFO/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SOC_UMN/",
         "type": "minor",
         "criticaltracking": {
             "courses": [
@@ -36541,10 +36568,7 @@
     },
     "Theatre Performance (major)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGART/THF_BFA/",
-        "type": "major",
-        "criticaltracking": {},
-        "modelsemesterplan": {},
-        "academiclearningcompact": {}
+        "type": "major"
     },
     "Theatre Production (major)": {
         "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGART/TPR_BFA/",
@@ -36631,7 +36655,7 @@
         }
     },
     "Tourism, Hospitality and Event Management (major)": {
-        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGHHU/TRM_BSTM/",
+        "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGHHU/TRM_BSTM_UFO/",
         "type": "major",
         "criticaltracking": {},
         "modelsemesterplan": {},

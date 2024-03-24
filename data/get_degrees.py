@@ -25,20 +25,20 @@ def extract_programs(base_url):
     return programs
 
 
-def fetch_program_details(program, program_type, url, base_url):
-    """Extracts the details for a given program and returns them as a dictionary"""
-    program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
-    response = requests.get(program_details["url"])
-    soup = BeautifulSoup(response.text, "html.parser")
-    program_details["main"] = soup.get_text(separator=" ", strip=True)
+# def fetch_program_details(program, program_type, url, base_url):
+#     """Extracts the details for a given program and returns them as a dictionary"""
+#     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
+#     response = requests.get(program_details["url"])
+#     soup = BeautifulSoup(response.text, "html.parser")
+#     program_details["main"] = soup.get_text(separator=" ", strip=True)
 
-    # fetch each possible section
-    for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
-        response = requests.get(f"{program_details['url']}/#{subsection}") 
-        soup = BeautifulSoup(response.text, "html.parser")
-        program_details[subsection.replace("text", "")] = soup.get_text(separator=" ", strip=True)
+#     # fetch each possible section
+#     for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
+#         response = requests.get(f"{program_details['url']}/#{subsection}") 
+#         soup = BeautifulSoup(response.text, "html.parser")
+#         program_details[subsection.replace("text", "")] = soup.get_text(separator=" ", strip=True)
 
-    return program, program_details
+#     return program, program_details
 
 # def fetch_program_details(program, program_type, url, base_url):
 #     """Extracts the details for a given program and returns them as a dictionary"""
@@ -104,23 +104,25 @@ def fetch_program_details(program, program_type, url, base_url):
 #     return program, program_details
 
 
-# courtesy of our friend Claude <3
+# efficient code courtesy of our friend Claude <3
 def fetch_program_details(program, program_type, url, base_url):
     """Extracts the details for a given program and returns them as a dictionary"""
     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
 
+    # there are actually more: see chinese for a good example https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/FCH_BA/
     for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
         response = requests.get(f"{program_details['url']}/#{subsection}")
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # UF uses at least 4 different classes for tables in their course catalog
-        dumb_table_classes = [f"sc_sctable tbl_academiclearningcompact{i}" for i in range(1, 6)]
-        table_classes = ["sc_courselist", "sc_plangrid"] + dumb_table_classes
+        # UF uses different classes for tables in their course catalog
+        table_classes = ["sc_courselist", "sc_plangrid"] + [f"sc_sctable tbl_academiclearningcompact{i}" for i in range(1, 7)]
         course_tables = soup.find_all(["table", {"class": tbl_class}] for tbl_class in table_classes)
 
+        table_exists = False
         subsection_courses = {}
 
         for table in course_tables:
+            table_exists = True
             if "sc_courselist" in table.get("class", []):
                 # Handle sc_courselist table
                 rows = table.find_all("tr")
@@ -154,6 +156,7 @@ def fetch_program_details(program, program_type, url, base_url):
 
                     subsection_courses["courses"] = courses
             elif "sc_plangrid" in table.get("class", []):
+                table_exists = True
                 # Handle sc_plangrid table
                 current_semester = None
                 courses_by_semester = {}
@@ -175,21 +178,47 @@ def fetch_program_details(program, program_type, url, base_url):
                                     courses_by_semester[current_semester].append(course_comment.text.strip())
 
                 subsection_courses.update(courses_by_semester)
-            elif any(f"sc_sctable tbl_academiclearningcompact{i}" in table.get("class", []) for i in range(1, 6)):
-                # Handle academic learning compact tables
+            elif any(tbl_class in table.get("class", []) for tbl_class in table_classes):
+                table_exists = True
                 rows = table.find_all("tr")
-                courses = []
-
-                for row in rows[1:]:  # Skip the header row
+                for row in rows[1:]:  # skip the header row
                     cols = row.find_all("td")
-                    if len(cols) >= 1:
-                        course_code = cols[0].text.strip()
-                        if course_code:
-                            courses.append(course_code)
+                    if len(cols) > 0:
+                        course_codes = []
+                        for col in cols:
+                            links = col.find_all("a")
+                            if links:
+                                for link in links:
+                                    course_code = link.text.strip()
+                                    if course_code:
+                                        course_codes.append(course_code)
+                            else:
+                                course_text = col.text.strip()
+                                if course_text:
+                                    course_codes.append(course_text)
+
+                        if course_codes:
+                            courses.append(" or ".join(course_codes))
 
                 subsection_courses["courses"] = courses
+        #     elif any(tbl_class in table.get("class", []) for tbl_class in table_classes):
+        #         # Handle tables with class names like "tbl_academiclearningcompactX"
+        #         table_exists = True     
+        #         courses = []  # Initialize courses list
+        #         rows = table.find_all("tr")[1:]  # Skip the header row
+        #         for row in rows:
+        #             course_codes = []
+        #             cols = row.find_all("td")
+        #             if cols:
+        #                 course_names = cols[0].find_all("a")
+        #                 course_codes = " or ".join([a.text.strip().replace(u"\xa0", u" ") for a in course_names if a.text.strip()]) if course_names else cols[0].text.strip().replace(u"\xa0", u" ")
+        #                 courses.append(course_codes)
+        #         if courses:  # Check if courses list is not empty
+        #             subsection_courses["courses"] = courses  # Assign the courses list to the correct key in subsection_courses
 
-        program_details[subsection.replace("text", "")] = subsection_courses
+        # # program_details[subsection.replace("text", "")] = subsection_courses
+        if table_exists:  # Check if subsection_courses dictionary is not empty
+            program_details[subsection.replace("text", "")] = subsection_courses  # Assign the subsection_courses dictionary t
 
     return program, program_details
 
