@@ -40,51 +40,125 @@ def extract_programs(base_url):
 
 #     return program, program_details
 
+# def fetch_program_details(program, program_type, url, base_url):
+#     """Extracts the details for a given program and returns them as a dictionary"""
+#     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
+
+#     response = requests.get(program_details["url"])
+#     soup = BeautifulSoup(response.text, "html.parser")
+
+#     course_tables = soup.find_all("table", class_="sc_courselist")
+#     program_details["courses"] = []
+
+#     current_area = None
+#     courses_by_area = {}
+
+#     for table in course_tables:
+#         rows = table.find_all("tr")
+#         for row in rows:
+#             if "areaheader" in row.get("class", []):
+#                 current_area = row.find("span", class_="courselistcomment").text.strip()
+#                 courses_by_area[current_area] = []
+#             else:
+#                 cols = row.find_all("td")
+#                 if len(cols) >= 2:
+#                     course_code = cols[0].text.strip()
+#                     if course_code and current_area:
+#                         courses_by_area[current_area].append(course_code)
+
+#     program_details["courses"] = courses_by_area
+
+#     return program, program_details
+
+# def fetch_program_details(program, program_type, url, base_url):
+#     """Extracts the details for a given program and returns them as a dictionary"""
+#     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
+
+#     for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
+#         response = requests.get(f"{program_details['url']}/#{subsection}")
+#         soup = BeautifulSoup(response.text, "html.parser")
+        
+#         possible_classes = ["sc_plangrid", "sc_courselist"]
+#         course_tables = soup.find_all("table", class_="sc_courselist")
+#         subsection_courses = {}
+
+#         current_area = None
+#         courses_by_area = {}
+
+#         for table in course_tables:
+#             rows = table.find_all("tr")
+#             for row in rows:
+#                 if "areaheader" in row.get("class", []):
+#                     current_area = row.find("span", class_="courselistcomment").text.strip()
+#                     courses_by_area[current_area] = []
+#                 else:
+#                     cols = row.find_all("td")
+#                     if len(cols) >= 2:
+#                         course_code = cols[0].text.strip()
+#                         if course_code and current_area:
+#                             courses_by_area[current_area].append(course_code)
+
+#         subsection_courses = courses_by_area
+#         program_details[subsection.replace("text", "")] = subsection_courses
+
+#     return program, program_details
+
+
 def fetch_program_details(program, program_type, url, base_url):
     """Extracts the details for a given program and returns them as a dictionary"""
     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
 
-    response = requests.get(program_details["url"])
-    soup = BeautifulSoup(response.text, "html.parser")
+    for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
+        response = requests.get(f"{program_details['url']}/#{subsection}")
+        soup = BeautifulSoup(response.text, "html.parser")
 
-    # Find tables with class "sc_courselist"
-    course_tables = soup.find_all("table", class_="sc_courselist")
-    program_details["courses"] = []
-    
+        # course_tables = soup.find_all(["table", class_="sc_courselist"], ["table", class_="sc_plangrid"])
+        course_tables = soup.find_all(["table"], class_=["sc_courselist", "sc_plangrid"])
+        subsection_courses = {}
 
-    for table in course_tables:
-        # Find the h2 tag above the table
-        h2_tag = table.find_previous("h2")
-        if h2_tag:
-            table_name = h2_tag.text.strip()
-        else:
-            table_name = "Unknown"
+        for table in course_tables:
+            if "sc_courselist" in table.get("class", []):
+                current_area = None
+                courses_by_area = {}
 
-        # Extract course information from each row in the table
-        rows = table.find_all("tr")
-        for row in rows[1:]:  # Skip the header row
-            cols = row.find_all("td")
-            if len(cols) >= 2:
-                course_code = cols[0].text.strip()
-                course_name = cols[1].text.strip()
+                rows = table.find_all("tr")
+                for row in rows:
+                    if "areaheader" in row.get("class", []):
+                        current_area = row.find("span", class_="courselistcomment").text.strip()
+                        courses_by_area[current_area] = []
+                    else:
+                        cols = row.find_all("td")
+                        if len(cols) >= 2:
+                            course_code = cols[0].text.strip()
+                            if course_code and current_area:
+                                courses_by_area[current_area].append(course_code)
 
-                # Find the span tag within the course name
-                span_tag = cols[1].find("span")
-                if span_tag:
-                    span_text = span_tag.text.strip()
-                else:
-                    span_text = ""
+                subsection_courses.update(courses_by_area)
+            elif "sc_plangrid" in table.get("class", []):
+                current_semester = None
+                courses_by_semester = {}
 
-                program_details["courses"].append({
-                    "table_name": table_name,
-                    "course_code": course_code,
-                    "course_name": course_name,
-                    "span_text": span_text
-                })
+                rows = table.find_all("tr")
+                for row in rows:
+                    if "plangridterm" in row.get("class", []):
+                        current_semester = row.find("th").text.strip()
+                        courses_by_semester[current_semester] = []
+                    else:
+                        cols = row.find_all("td")
+                        if len(cols) >= 2:
+                            course_code = cols[0].text.strip()
+                            if course_code:
+                                courses_by_semester[current_semester].append(course_code)
+                            else:
+                                course_comment = row.find("span", class_="comment")
+                                if course_comment:
+                                    courses_by_semester[current_semester].append(course_comment.text.strip())
+
+                subsection_courses.update(courses_by_semester)
+
+        program_details[subsection.replace("text", "")] = subsection_courses
 
     return program, program_details
-
-
 
 
 def main():
