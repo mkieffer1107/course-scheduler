@@ -104,34 +104,36 @@ def extract_programs(base_url):
 #     return program, program_details
 
 
-# efficient code courtesy of our friend Claude <3
 def fetch_program_details(program, program_type, url, base_url):
-    """Extracts the details for a given program and returns them as a dictionary"""
+    """
+    Extracts the details for a given program and returns them as a dictionary
+    """
     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
 
-    # there are actually more: see chinese for a good example https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/FCH_BA/
-    for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
-        response = requests.get(f"{program_details['url']}/#{subsection}")
+    for subsection in ["base", "criticaltracking", "modelsemesterplan", "academiclearningcompact"]:
+        if subsection == "base":
+            response = requests.get(f"{program_details['url']}/")
+        else:
+            response = requests.get(f"{program_details['url']}/#{subsection}")
         soup = BeautifulSoup(response.text, "html.parser")
 
         # UF uses different classes for tables in their course catalog
         table_classes = ["sc_courselist", "sc_plangrid"] + [f"sc_sctable tbl_academiclearningcompact{i}" for i in range(1, 7)]
-        course_tables = soup.find_all(["table", {"class": tbl_class}] for tbl_class in table_classes)
+
+        course_tables = []
+        for tbl_class in table_classes:
+            course_tables += soup.find_all("table", {"class": tbl_class})
 
         table_exists = False
         subsection_courses = {}
-
         for table in course_tables:
-            table_exists = True
             if "sc_courselist" in table.get("class", []):
                 # Handle sc_courselist table
                 rows = table.find_all("tr")
                 has_area_header = any("areaheader" in row.get("class", []) for row in rows)
-
                 if has_area_header:
                     current_area = None
                     courses_by_area = {}
-
                     for row in rows:
                         if "areaheader" in row.get("class", []):
                             current_area = row.find("span", class_="courselistcomment").text.strip()
@@ -142,25 +144,20 @@ def fetch_program_details(program, program_type, url, base_url):
                                 course_code = cols[0].text.strip()
                                 if course_code and current_area:
                                     courses_by_area[current_area].append(course_code)
-
                     subsection_courses.update(courses_by_area)
                 else:
                     courses = []
-
                     for row in rows:
                         cols = row.find_all("td")
                         if len(cols) >= 2:
                             course_code = cols[0].text.strip()
                             if course_code:
                                 courses.append(course_code)
-
                     subsection_courses["courses"] = courses
-            elif "sc_plangrid" in table.get("class", []):
-                table_exists = True
-                # Handle sc_plangrid table
+            elif "sc_plangrid" in table.get("class", []) and subsection == "criticaltracking":
+                # Handle sc_plangrid table specifically for critical tracking
                 current_semester = None
                 courses_by_semester = {}
-
                 rows = table.find_all("tr")
                 for row in rows:
                     if "plangridterm" in row.get("class", []):
@@ -172,53 +169,14 @@ def fetch_program_details(program, program_type, url, base_url):
                             course_code = cols[0].text.strip()
                             if course_code and current_semester:
                                 courses_by_semester[current_semester].append(course_code)
-                            else:
-                                course_comment = row.find("span", class_="comment")
-                                if course_comment and current_semester:
-                                    courses_by_semester[current_semester].append(course_comment.text.strip())
-
+                        else:
+                            course_comment = row.find("span", class_="comment")
+                            if course_comment and current_semester:
+                                courses_by_semester[current_semester].append(course_comment.text.strip())
                 subsection_courses.update(courses_by_semester)
-            elif any(tbl_class in table.get("class", []) for tbl_class in table_classes):
-                table_exists = True
-                rows = table.find_all("tr")
-                for row in rows[1:]:  # skip the header row
-                    cols = row.find_all("td")
-                    if len(cols) > 0:
-                        course_codes = []
-                        for col in cols:
-                            links = col.find_all("a")
-                            if links:
-                                for link in links:
-                                    course_code = link.text.strip()
-                                    if course_code:
-                                        course_codes.append(course_code)
-                            else:
-                                course_text = col.text.strip()
-                                if course_text:
-                                    course_codes.append(course_text)
 
-                        if course_codes:
-                            courses.append(" or ".join(course_codes))
-
-                subsection_courses["courses"] = courses
-        #     elif any(tbl_class in table.get("class", []) for tbl_class in table_classes):
-        #         # Handle tables with class names like "tbl_academiclearningcompactX"
-        #         table_exists = True     
-        #         courses = []  # Initialize courses list
-        #         rows = table.find_all("tr")[1:]  # Skip the header row
-        #         for row in rows:
-        #             course_codes = []
-        #             cols = row.find_all("td")
-        #             if cols:
-        #                 course_names = cols[0].find_all("a")
-        #                 course_codes = " or ".join([a.text.strip().replace(u"\xa0", u" ") for a in course_names if a.text.strip()]) if course_names else cols[0].text.strip().replace(u"\xa0", u" ")
-        #                 courses.append(course_codes)
-        #         if courses:  # Check if courses list is not empty
-        #             subsection_courses["courses"] = courses  # Assign the courses list to the correct key in subsection_courses
-
-        # # program_details[subsection.replace("text", "")] = subsection_courses
-        if table_exists:  # Check if subsection_courses dictionary is not empty
-            program_details[subsection.replace("text", "")] = subsection_courses  # Assign the subsection_courses dictionary t
+        # if the subsection has no courses, the value is just {}
+        program_details[subsection.replace("text", "")] = subsection_courses
 
     return program, program_details
 

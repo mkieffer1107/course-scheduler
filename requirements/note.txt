@@ -1,6 +1,0 @@
-eventually store all majors in a single json file in format
-{
-    "major1": requirements,
-    "major2": requirements,
-    ...
-}
