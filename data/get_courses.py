@@ -25,7 +25,7 @@ def generate_schedules(course_credits, num_schedule_options=5):
             period_r = random.choice(range(1, 11))  # periods 1-10 to save room for double period
             schedules.append({
                 "T": period_t,
-                "R": [period_r, period_r + 1]  # Two contiguous periods on Thursday
+                "R": [period_r, period_r + 1]  # back-to-back periods on Thursday
             })
 
     return schedules

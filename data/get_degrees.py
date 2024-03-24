@@ -25,20 +25,66 @@ def extract_programs(base_url):
     return programs
 
 
+# def fetch_program_details(program, program_type, url, base_url):
+#     """Extracts the details for a given program and returns them as a dictionary"""
+#     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
+#     response = requests.get(program_details["url"])
+#     soup = BeautifulSoup(response.text, "html.parser")
+#     program_details["main"] = soup.get_text(separator=" ", strip=True)
+
+#     # fetch each possible section
+#     for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
+#         response = requests.get(f"{program_details['url']}/#{subsection}") 
+#         soup = BeautifulSoup(response.text, "html.parser")
+#         program_details[subsection.replace("text", "")] = soup.get_text(separator=" ", strip=True)
+
+#     return program, program_details
+
 def fetch_program_details(program, program_type, url, base_url):
     """Extracts the details for a given program and returns them as a dictionary"""
     program_details = {"url": base_url + url if base_url not in url else url, "type": program_type}
+
     response = requests.get(program_details["url"])
     soup = BeautifulSoup(response.text, "html.parser")
-    program_details["main"] = soup.get_text(separator=" ", strip=True)
 
-    # fetch each possible section
-    for subsection in ["criticaltrackingtext", "modelsemesterplantext", "academiclearningcompacttext"]:
-        response = requests.get(f"{program_details['url']}/#{subsection}") 
-        soup = BeautifulSoup(response.text, "html.parser")
-        program_details[subsection.replace("text", "")] = soup.get_text(separator=" ", strip=True)
+    # Find tables with class "sc_courselist"
+    course_tables = soup.find_all("table", class_="sc_courselist")
+    program_details["courses"] = []
+    
+
+    for table in course_tables:
+        # Find the h2 tag above the table
+        h2_tag = table.find_previous("h2")
+        if h2_tag:
+            table_name = h2_tag.text.strip()
+        else:
+            table_name = "Unknown"
+
+        # Extract course information from each row in the table
+        rows = table.find_all("tr")
+        for row in rows[1:]:  # Skip the header row
+            cols = row.find_all("td")
+            if len(cols) >= 2:
+                course_code = cols[0].text.strip()
+                course_name = cols[1].text.strip()
+
+                # Find the span tag within the course name
+                span_tag = cols[1].find("span")
+                if span_tag:
+                    span_text = span_tag.text.strip()
+                else:
+                    span_text = ""
+
+                program_details["courses"].append({
+                    "table_name": table_name,
+                    "course_code": course_code,
+                    "course_name": course_name,
+                    "span_text": span_text
+                })
 
     return program, program_details
+
+
 
 
 def main():
@@ -68,3 +114,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+'''
+
+ACG 2021	Introduction to Financial Accounting	codecol
+or AEB 3144	Introduction to Agricultural Finance    orclass odd  /  orclass even
+
+
+
+'''
